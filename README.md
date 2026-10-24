@@ -89,6 +89,27 @@ hue and every page comes out pink.
 Dark mode follows the system setting and can be toggled in the top bar. Reduced motion,
 keyboard focus and print styles are all handled.
 
+## On phones
+
+Built to work down to 320px wide. What changes:
+
+- **Below 760px** the nine-item nav strip collapses into a *Subjects* button that opens
+  a two-column panel showing all nine at once, colour-coded, with the current one marked.
+  Only three subjects were reachable in the scrolling strip, so nothing else was findable.
+- **Below 580px** the wordmark drops to just the mark, the subject grid goes to one column,
+  lab controls take a full row each, and the twelve-tense table stops being a table —
+  it stacks into one block per aspect with the column name beside each value.
+- The eight bits in the number-base lab are a CSS grid rather than a table, so all eight
+  fit a 320px screen instead of running off the edge.
+- The dynasty timeline has tappable era chips, because the labels inside the band were
+  too small to read once the SVG scaled down.
+- Tables that genuinely still need sideways scrolling (the Sanskrit roop tables at the
+  very narrowest widths) get a faded right edge, applied only when content is actually
+  hidden.
+- Hover styles sit behind `@media (hover: hover)` so taps don't leave stuck states, and
+  controls are at least 44px on `pointer: coarse`. Form fields are 16px so iOS doesn't
+  zoom on focus. Safe-area insets are respected on notched phones.
+
 ## Deploying
 
 Settings → Pages → Source: *Deploy from a branch* → `main` / `root`.

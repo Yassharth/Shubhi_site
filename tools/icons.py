@@ -82,7 +82,10 @@ def palette(subjects):
 <path class="stroke-in"
  d="M206 20C104 20 22 78 20 152c-2 76 76 140 170 144 98 4 192-50 194-136C386 78 306 20 206 20Z"
  fill="var(--paper-2)" stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round"/>
-<circle cx="120" cy="226" r="26" fill="var(--paper)" stroke="var(--ink)" stroke-width="3"/>
+<circle cx="120" cy="226" r="26" fill="color-mix(in srgb, var(--ink) 15%, var(--paper))"
+ stroke="var(--ink)" stroke-width="3"/>
+<path d="M100 216a26 26 0 0 1 32-11" fill="none" stroke="var(--ink)" stroke-width="2"
+ stroke-linecap="round" opacity=".45"/>
 {''.join(blobs)}
 <g stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
 <path d="M352 300l56-56"/>
@@ -116,3 +119,6 @@ MOON = '''<svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true" fill="non
 SUN = '''<svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
  stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/>
 <path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>'''
+
+CARET = '''<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+ stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l7 7 7-7"/></svg>'''

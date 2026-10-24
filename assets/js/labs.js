@@ -544,14 +544,29 @@
 
     root.innerHTML = head(root, "Five hundred years on one slider",
       "Drag through from the Slave dynasty to the end of Aurangzeb's reign.") +
+      '<div class="chipset" data-eras style="margin-bottom:.9rem"></div>' +
       '<div class="lab-row"><label class="lab-field" style="flex:1 1 100%">' +
       '<span>Year</span><input type="range" min="1206" max="1707" value="1556" data-year></label></div>' +
       '<div class="lab-stage" style="display:block"><svg viewBox="0 0 460 80" data-band role="img" aria-label="Timeline of dynasties"></svg></div>' +
       '<div class="lab-readout"><span class="pill" data-year-out></span><span class="pill" data-era></span></div>' +
       '<p style="margin:.9rem 0 .3rem"><b data-who></b></p><p class="lab-sub" data-note style="margin:0"></p>';
 
+    var eraBox = $("[data-eras]", root);
+    eras.forEach(function (e) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "tog";
+      b.textContent = e.name.split(" ")[0];
+      b.addEventListener("click", function () {
+        year = Math.round((e.from + e.to) / 2);
+        $("[data-year]", root).value = year;
+        render();
+      });
+      eraBox.appendChild(b);
+    });
+
     function render() {
       var era = eras.filter(function (e) { return year >= e.from && year < e.to; })[0] || eras[eras.length - 1];
+      $$(".tog", eraBox).forEach(function (b, i) { b.classList.toggle("on", eras[i] === era); });
       var span = 1707 - 1206;
       var parts = [];
 
@@ -645,8 +660,7 @@
 
     root.innerHTML = head(root, "Flip the bits",
       "Eight switches, each worth double the one to its right. Add up the ones that are on.") +
-      '<div class="scroller"><table class="grid" style="margin-bottom:1rem"><tbody>' +
-      '<tr data-place></tr><tr data-bits></tr></tbody></table></div>' +
+      '<div class="bitrow" data-bits></div>' +
       '<div class="lab-row"><label class="lab-field" style="flex:1 1 160px"><span>Or type a decimal number (0–255)</span>' +
       '<input type="number" min="0" max="255" value="45" data-dec></label></div>' +
       '<div class="lab-readout">' +
@@ -654,25 +668,27 @@
       '<span class="pill" data-d></span><span class="pill" data-h></span></div>' +
       '<p class="lab-sub" data-sum style="margin:.9rem 0 0"></p>';
 
-    var placeRow = $("[data-place]", root), bitRow = $("[data-bits]", root);
+    var bitRow = $("[data-bits]", root);
 
     function render() {
-      placeRow.innerHTML = ""; bitRow.innerHTML = "";
+      bitRow.innerHTML = "";
       bits.forEach(function (b, i) {
         var place = Math.pow(2, 7 - i);
-        var th = document.createElement("th");
-        th.textContent = place; th.style.textAlign = "center";
-        placeRow.appendChild(th);
+        var cell = document.createElement("div");
+        cell.className = "bit";
 
-        var td = document.createElement("td");
-        td.style.textAlign = "center"; td.style.padding = "0";
+        var cap = document.createElement("span");
+        cap.textContent = place;
+        cap.setAttribute("aria-hidden", "true");
+
         var btn = document.createElement("button");
-        btn.type = "button"; btn.className = "tog" + (b ? " on" : "");
+        btn.type = "button";
+        btn.className = b ? "on" : "";
         btn.textContent = b;
-        btn.style.width = "100%"; btn.style.borderRadius = "0"; btn.style.border = "none";
         btn.setAttribute("aria-label", "Bit worth " + place + ", currently " + b);
         btn.addEventListener("click", function () { bits[i] = b ? 0 : 1; render(); });
-        td.appendChild(btn); bitRow.appendChild(td);
+
+        cell.appendChild(cap); cell.appendChild(btn); bitRow.appendChild(cell);
       });
 
       var dec = bits.reduce(function (acc, b, i) { return acc + b * Math.pow(2, 7 - i); }, 0);
@@ -708,7 +724,7 @@
     };
 
     root.innerHTML = head(root, "Write HTML, see it immediately",
-      "Type on the left and the browser renders it on the right, exactly as it would in a real page.") +
+      "Change the code and the preview updates as you type, exactly as a real page would render it.") +
       '<div class="chipset" data-samples style="margin-bottom:.8rem"></div>' +
       '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.9rem">' +
       '<label class="lab-field"><span>Your HTML</span>' +
@@ -881,7 +897,7 @@
       '<label class="lab-field"><span>Verb</span><select data-verb></select></label>' +
       '<label class="lab-field"><span>Subject</span><select data-subj>' +
       '<option>I</option><option>She</option><option>They</option></select></label></div>' +
-      '<div class="scroller"><table class="grid" data-grid></table></div>' +
+      '<div class="scroller"><table class="grid grid--stack" data-grid></table></div>' +
       '<p class="lab-sub" style="margin:.9rem 0 0">Simple states a fact. Continuous is still happening. ' +
       'Perfect is finished. Perfect continuous started earlier and is still going.</p>';
 
@@ -905,10 +921,13 @@
         ["Perfect continuous", have + " been " + f.ing, "had been " + f.ing, "will have been " + f.ing]
       ];
 
+      var cols = ["Present", "Past", "Future"];
       var html = '<thead><tr><th></th><th>Present</th><th>Past</th><th>Future</th></tr></thead><tbody>';
       rows.forEach(function (r) {
         html += '<tr><th>' + r[0] + '</th>';
-        for (var i = 1; i <= 3; i++) html += '<td>' + subj + " " + r[i] + '</td>';
+        for (var i = 1; i <= 3; i++) {
+          html += '<td data-col="' + cols[i - 1] + '">' + subj + " " + r[i] + '</td>';
+        }
         html += '</tr>';
       });
       $("[data-grid]", root).innerHTML = html + '</tbody>';

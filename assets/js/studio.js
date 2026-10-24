@@ -29,6 +29,41 @@
     });
   }
 
+  /* ---------- collapsed subject menu (phones) ---------- */
+  var navmenu = document.querySelector("[data-navmenu]");
+  if (navmenu) {
+    document.addEventListener("click", function (ev) {
+      if (navmenu.open && !navmenu.contains(ev.target)) navmenu.open = false;
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && navmenu.open) {
+        navmenu.open = false;
+        navmenu.querySelector("summary").focus();
+      }
+    });
+    // a link to the page you are already on would not navigate, so close it by hand
+    navmenu.addEventListener("click", function (ev) {
+      if (ev.target.closest("a")) navmenu.open = false;
+    });
+  }
+
+  /* ---------- flag tables that scroll sideways, so the fade only shows when it should ---------- */
+  /* Labs build their own tables after this file runs, so the list is re-queried
+     each time rather than captured once. */
+  function markScrollers() {
+    document.querySelectorAll(".scroller").forEach(function (sc) {
+      var more = sc.scrollWidth - sc.clientWidth - sc.scrollLeft > 4;
+      sc.setAttribute("data-more", more ? "1" : "0");
+    });
+  }
+  markScrollers();
+  window.addEventListener("load", markScrollers);
+  window.addEventListener("resize", markScrollers);
+  document.addEventListener("scroll", function (ev) {
+    if (ev.target && ev.target.classList && ev.target.classList.contains("scroller")) markScrollers();
+  }, true);
+  [250, 700, 1500].forEach(function (t) { setTimeout(markScrollers, t); });
+
   /* ---------- progress: opening a chapter counts as having looked at it ---------- */
   var subject = document.body.getAttribute("data-subject");
 

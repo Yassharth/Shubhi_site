@@ -76,11 +76,20 @@ def shell(title, description, body, subject=None, depth=0, nav_current=None, sub
         for s in subjects
     )
 
+    # On phones the nine-item strip collapses into this panel, which shows them all at once.
+    menu = "".join(
+        f'<a href="{up}subjects/{e(s["id"])}.html"'
+        f' style="--subject:{e(s["color"])}"'
+        f'{" aria-current=\"page\"" if s["id"] == nav_current else ""}>'
+        f'{icons.ICONS[s["id"]]}<span>{e(NAV_SHORT.get(s["id"], s["name"]))}</span></a>'
+        for s in subjects
+    )
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <meta name="color-scheme" content="light dark">
@@ -94,6 +103,10 @@ def shell(title, description, body, subject=None, depth=0, nav_current=None, sub
 <header class="topbar">
   <a class="topbar-mark" href="{up}index.html">{icons.MARK}<span>{e(SITE)}</span></a>
   <nav class="topbar-nav" aria-label="Subjects">{nav}</nav>
+  <details class="navmenu" data-navmenu>
+    <summary class="navmenu-btn">Subjects {icons.CARET}</summary>
+    <nav class="navmenu-panel" aria-label="All subjects">{menu}</nav>
+  </details>
   <button class="theme-toggle" type="button" aria-label="Switch between light and dark paper">
     {icons.MOON}{icons.SUN}
   </button>
