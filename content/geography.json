@@ -1,0 +1,226 @@
+{
+  "id": "geography",
+  "name": "Geography",
+  "color": "#2F57C9",
+  "ink": "#2F57C9",
+  "tagline": "Reading the planet, from a map symbol to a whole continent.",
+  "blurb": "Maps, the atmosphere, weather, soil, industries and three continents.",
+  "intro": "Geography is the skill of reading a place. Start with how we flatten the world onto paper, then work outward through the air above it, the soil beneath it, and the people making things on top of it.",
+  "labs": [
+    "atmosphere"
+  ],
+  "chapters": [
+    {
+      "id": "maps",
+      "title": "Representation of Geographical Features",
+      "hook": "A topographical sheet is a landscape squashed flat and written in code.",
+      "body": [
+        "Topographical sheets show relief, drainage, vegetation and human settlement on one map. Scale tells you how distance on the map relates to distance on the ground. A representative fraction such as 1:50,000 means one unit on the map equals 50,000 of the same unit on the ground. A large-scale map covers a small area in great detail; a small-scale map covers a large area with little detail.",
+        "Conventional symbols are a shared vocabulary so any map can be read anywhere. Contour lines join points of equal height, and how close together they sit tells you the steepness: lines bunched tightly mean a steep slope, lines far apart mean a gentle one."
+      ],
+      "draw": "Draw a hill from the side, then draw it from above as contour rings. Doing both views once makes contour maps click permanently.",
+      "points": [
+        "Representative fraction 1:50,000 means 1 cm on the map is 50,000 cm, or 0.5 km, on the ground.",
+        "Large scale shows a small area in detail; small scale shows a large area generally.",
+        "Contour lines join points of equal elevation and never cross.",
+        "Closely spaced contours indicate a steep slope."
+      ],
+      "example": {
+        "title": "Two towns are 6 cm apart on a 1:50,000 map. What is the real distance?",
+        "steps": [
+          "1 cm on the map equals 50,000 cm on the ground.",
+          "6 cm equals 6 x 50,000 = 300,000 cm.",
+          "Convert: 300,000 cm = 3,000 m = 3 km."
+        ],
+        "answer": "3 km. Always convert to a sensible unit at the end."
+      }
+    },
+    {
+      "id": "atmosphere",
+      "title": "The Atmosphere",
+      "hook": "Five layers of air, each with its own job.",
+      "body": [
+        "From the ground upwards: the troposphere holds nearly all weather and almost all the water vapour. The stratosphere above it contains the ozone layer, which absorbs harmful ultraviolet radiation, and is where aircraft prefer to fly because the air is stable. The mesosphere burns up meteors, the thermosphere reflects radio waves, and the exosphere fades into space.",
+        "The greenhouse effect is natural and necessary: gases such as carbon dioxide, methane and water vapour trap some of the heat radiated back from the Earth, keeping the planet warm enough to live on. Global warming is what happens when human activity adds so much of these gases that too much heat is trapped, raising average temperatures."
+      ],
+      "draw": "Draw the five layers as horizontal bands with altitudes marked up the side. Add one icon per band: a cloud, an aeroplane, a meteor, a radio wave, a satellite.",
+      "points": [
+        "The troposphere contains almost all weather and water vapour.",
+        "Ozone in the stratosphere absorbs ultraviolet radiation.",
+        "The greenhouse effect is natural; global warming is its excess.",
+        "Temperature falls with altitude in the troposphere, then rises again in the stratosphere."
+      ],
+      "example": {
+        "title": "Why do mountain tops stay cold even though they are nearer the Sun?",
+        "steps": [
+          "The atmosphere is not heated directly by sunlight passing through it.",
+          "The ground absorbs the Sun's energy and re-radiates heat upwards.",
+          "Air nearest the ground is therefore warmest.",
+          "The few kilometres closer to the Sun make no measurable difference."
+        ],
+        "answer": "Air is heated from below, by the Earth, not from above by the Sun."
+      }
+    },
+    {
+      "id": "weather-climate",
+      "title": "Weather and Climate",
+      "hook": "Weather is today; climate is the thirty-year average.",
+      "body": [
+        "Weather is the state of the atmosphere at one place at one moment, and it changes hourly. Climate is the average weather of a region measured over a long period, usually around thirty years. The elements are the same for both: temperature, atmospheric pressure, wind, humidity and precipitation.",
+        "Warm air rises, creating low pressure; cool air sinks, creating high pressure. Wind is simply air flowing from high pressure to low pressure. Humidity is the water vapour in the air, and when saturated air cools, that vapour condenses into cloud and falls as precipitation."
+      ],
+      "draw": "Draw a coastline with arrows: by day the land heats faster, air rises, and the sea breeze blows inland. Reverse all the arrows for the land breeze at night.",
+      "points": [
+        "Weather is short-term and local; climate is long-term and regional.",
+        "Wind always blows from high pressure towards low pressure.",
+        "Warm air rises and causes low pressure.",
+        "Relative humidity is the water vapour present as a percentage of the maximum the air could hold."
+      ],
+      "example": {
+        "title": "Why does it rain so heavily on the windward side of the Western Ghats?",
+        "steps": [
+          "Moist air from the Arabian Sea is forced up the slope.",
+          "Rising air expands and cools.",
+          "Cool air holds less water vapour, so it condenses and rains.",
+          "The air descending the far side is already dry."
+        ],
+        "answer": "Relief or orographic rainfall. The dry far side is called the rain shadow area."
+      }
+    },
+    {
+      "id": "weathering-soil",
+      "title": "Weathering and Soil",
+      "hook": "Rock broken down in place, slowly, becomes the soil we live on.",
+      "body": [
+        "Weathering is the breaking down of rock where it stands, without being carried away. Mechanical weathering splits rock physically, through temperature changes, frost action and the pressure of growing roots. Chemical weathering changes the rock's composition, through rainwater, oxidation and carbonation. Biological weathering is the work of plants, burrowing animals and lichens.",
+        "Soil forms from weathered rock mixed with humus, the decayed organic matter that makes it fertile. A soil profile has horizons: topsoil rich in humus, subsoil with minerals washed down into it, then weathered parent rock, then bedrock. India's main soils are alluvial, black, red and laterite."
+      ],
+      "draw": "Draw a vertical slice of ground and label the horizons from the surface down. Shade the topsoil darkest, since humus is what makes it dark.",
+      "points": [
+        "Weathering breaks rock in place; erosion carries the pieces away.",
+        "Humus is decayed organic matter and is what makes soil fertile.",
+        "Black soil, also called regur, retains moisture and suits cotton.",
+        "Alluvial soil is deposited by rivers and is the most fertile in India."
+      ],
+      "example": {
+        "title": "How does frost action break a rock apart?",
+        "steps": [
+          "Water seeps into a crack in the rock.",
+          "At night the temperature falls and the water freezes.",
+          "Water expands as it turns to ice, pushing the crack wider.",
+          "Repeated freezing and thawing eventually splits the rock."
+        ],
+        "answer": "Mechanical weathering by frost action. No chemistry involved, just the expansion of ice."
+      }
+    },
+    {
+      "id": "industries",
+      "title": "Industries",
+      "hook": "Where a factory goes is never an accident.",
+      "body": [
+        "Industries are classified by raw material as agro-based, mineral-based or forest-based; by size as cottage, small-scale or large-scale; and by ownership as private, public, joint or cooperative. Agro-based industries like cotton textiles and sugar depend on farm produce; mineral-based ones like iron and steel depend on ores.",
+        "Location is decided by the balance of several pulls: nearness to raw materials, to power, to water, to labour, to markets, and to transport. Heavy industries that lose a lot of weight in processing, such as iron and steel, sit close to their raw materials. Industries making perishable or bulky finished goods sit close to their markets."
+      ],
+      "draw": "Draw a factory in the middle and six arrows pulling at it, labelled raw material, power, water, labour, market, transport. Different industries have different arrow strengths.",
+      "points": [
+        "Agro-based industries use farm produce; mineral-based use ores.",
+        "Iron and steel plants locate near coal and iron ore to cut transport costs.",
+        "Cottage industries are run at home with simple tools and family labour.",
+        "Sugar mills are built near cane fields because cane loses sucrose quickly after cutting."
+      ],
+      "example": {
+        "title": "Why are India's iron and steel plants clustered in the Chota Nagpur plateau?",
+        "steps": [
+          "The region has iron ore, coal and manganese close together.",
+          "Both raw materials are heavy and lose weight during processing.",
+          "Transporting the finished steel is cheaper than transporting the ore and coal.",
+          "Water and a large labour supply are also available."
+        ],
+        "answer": "Raw material pull dominates. When inputs are heavier than outputs, the factory goes to the inputs."
+      }
+    },
+    {
+      "id": "continents",
+      "title": "Continents: Africa, Europe and Australia",
+      "hook": "Three continents, three very different shapes of life.",
+      "body": [
+        "Africa straddles the Equator almost symmetrically, so its climate belts mirror each other north and south: equatorial rainforest at the centre, then savanna grassland, then the Sahara in the north and Kalahari in the south. The Nile is the longest river, and the Great Rift Valley runs down its east.",
+        "Europe is small but deeply indented, giving it a very long coastline and a strong maritime influence. The Alps run east to west and the Mediterranean climate on its southern edge has dry summers and wet winters. Australia is the smallest continent and the driest inhabited one, with the Great Dividing Range along the east, the Great Barrier Reef offshore, and a vast arid outback at its centre."
+      ],
+      "draw": "Trace each continent's outline and shade in the climate belts. For Africa, notice how the belts mirror each other across the Equator. That symmetry is the whole chapter.",
+      "points": [
+        "The Equator passes almost through the middle of Africa, mirroring its climate belts.",
+        "The Sahara is the largest hot desert in the world.",
+        "Europe's long indented coastline gives most of it a maritime climate.",
+        "Australia is the driest inhabited continent, with most people living on the coasts."
+      ],
+      "example": {
+        "title": "Why does most of Australia's population live around the edges?",
+        "steps": [
+          "The interior, the outback, is arid with very low and unreliable rainfall.",
+          "The coastal east and south-east receive reliable rain from onshore winds.",
+          "Rivers, farmland and ports are concentrated there.",
+          "Cities such as Sydney and Melbourne grew in those coastal zones."
+        ],
+        "answer": "Water availability. Climate, not land area, decides where people can settle."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "On a 1:50,000 map, 1 cm represents what real distance?",
+      "options": [
+        "50 m",
+        "500 m",
+        "5 km",
+        "50 km"
+      ],
+      "a": 1,
+      "why": "50,000 cm = 500 m, or half a kilometre. Convert centimetres to metres by dividing by 100."
+    },
+    {
+      "q": "Which layer of the atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "a": 1,
+      "why": "Ozone sits in the stratosphere, absorbing ultraviolet radiation. Weather happens below it, in the troposphere."
+    },
+    {
+      "q": "Wind blows from areas of...",
+      "options": [
+        "Low pressure to high pressure",
+        "High pressure to low pressure",
+        "Cold to hot always",
+        "North to south always"
+      ],
+      "a": 1,
+      "why": "Air always flows from high pressure to low pressure, which is what we feel as wind."
+    },
+    {
+      "q": "What makes soil fertile?",
+      "options": [
+        "Humus",
+        "Bedrock",
+        "Sand",
+        "Gravel"
+      ],
+      "a": 0,
+      "why": "Humus is decayed organic matter. It holds nutrients and moisture, and it darkens the topsoil."
+    },
+    {
+      "q": "Which is the driest inhabited continent?",
+      "options": [
+        "Africa",
+        "Europe",
+        "Australia",
+        "South America"
+      ],
+      "a": 2,
+      "why": "Australia is the driest inhabited continent. Antarctica is drier but has no permanent population."
+    }
+  ]
+}

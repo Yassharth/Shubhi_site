@@ -1,0 +1,250 @@
+{
+  "id": "maths",
+  "name": "Maths",
+  "color": "#DD4715",
+  "ink": "#C53E11",
+  "tagline": "Rules you can see, once you draw them.",
+  "blurb": "Numbers, shapes, and the quiet logic that holds them together.",
+  "intro": "Most of Class 7 maths is one idea wearing different hats: if you can write it down, you can rearrange it. Fractions, ratios, algebra and area are all just careful rearranging. Draw the thing first, then do the sum.",
+  "labs": [
+    "venn",
+    "stats"
+  ],
+  "chapters": [
+    {
+      "id": "number-system",
+      "title": "Number System",
+      "hook": "Every number you will meet this year fits somewhere on one line.",
+      "body": [
+        "Integers are the whole numbers plus their negatives, stretching both ways from zero. Fractions and decimals are two ways of writing the same in-between amounts. A rational number is anything you can write as p/q where q is not zero, which quietly includes integers, fractions and terminating or repeating decimals.",
+        "Exponents are shorthand for repeated multiplication: 2^5 means five 2s multiplied, not 2 times 5. HCF is the biggest number that divides two numbers cleanly; LCM is the smallest number both divide into. Prime factorisation finds both at once."
+      ],
+      "draw": "Draw one long number line across your page. Mark -3 to 3, then squeeze in 1/2, 0.75 and -5/4. Seeing them share a line kills the fear of negatives.",
+      "points": [
+        "Two negatives multiplied give a positive; a negative and a positive give a negative.",
+        "To compare fractions, make the denominators the same, then compare numerators.",
+        "HCF times LCM equals the product of the two numbers.",
+        "Anything to the power zero is 1, as long as the base is not zero."
+      ],
+      "example": {
+        "title": "Find the HCF and LCM of 24 and 36",
+        "steps": [
+          "Factorise: 24 = 2 x 2 x 2 x 3, and 36 = 2 x 2 x 3 x 3.",
+          "HCF takes the factors in common, lowest power each: 2 x 2 x 3 = 12.",
+          "LCM takes every factor, highest power each: 2 x 2 x 2 x 3 x 3 = 72."
+        ],
+        "answer": "HCF = 12, LCM = 72. Check: 12 x 72 = 864, and 24 x 36 = 864."
+      }
+    },
+    {
+      "id": "ratio-arithmetic",
+      "title": "Ratio, Proportion and Arithmetic",
+      "hook": "Percentage, profit and interest are all the same sum in different clothes.",
+      "body": [
+        "A ratio compares two amounts of the same kind; a proportion says two ratios are equal. Once you spot a proportion you can cross-multiply and solve for the missing piece. The unitary method is just finding the value of one thing first, then scaling.",
+        "Percentage is a ratio with the denominator fixed at 100. Profit and loss are percentages of the cost price, never the selling price. Simple interest is I = PRT/100, and speed, time and distance link through distance = speed x time."
+      ],
+      "draw": "Draw a bar split into 100 tiny squares. Shade 15 of them. That is 15 percent, and you will never again wonder whether to multiply or divide.",
+      "points": [
+        "Profit percent and loss percent are always calculated on cost price.",
+        "If the ratio a:b = c:d, then a x d = b x c.",
+        "Average speed is total distance divided by total time, not the average of two speeds.",
+        "To increase a number by r percent, multiply it by (100 + r)/100."
+      ],
+      "example": {
+        "title": "A bag bought for Rs 480 is sold for Rs 600. Find the profit percent.",
+        "steps": [
+          "Profit = selling price minus cost price = 600 - 480 = Rs 120.",
+          "Profit percent = (profit / cost price) x 100.",
+          "= (120 / 480) x 100 = 25."
+        ],
+        "answer": "Profit is 25 percent. Note it is divided by 480, the cost price, not by 600."
+      }
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "hook": "A letter is just a number wearing a mask until you work out who it is.",
+      "body": [
+        "An algebraic expression is built from terms. Like terms have exactly the same letters raised to the same powers, and only like terms can be added or subtracted. 5x and 3x add to 8x; 5x and 3x squared do not add at all.",
+        "An equation says two expressions are equal, and solving it means doing the same thing to both sides until the letter stands alone. An inequation uses a greater-than or less-than sign instead, and behaves the same way with one catch: multiply or divide by a negative and the sign flips."
+      ],
+      "draw": "Draw a balance scale. Put 2x + 3 in the left pan and 11 in the right. Every step you take, take it from both pans or the scale tips.",
+      "points": [
+        "Only like terms combine. Check the letters and the powers.",
+        "Whatever you do to one side of an equation, do to the other.",
+        "Multiplying or dividing an inequation by a negative reverses the sign.",
+        "Always substitute your answer back into the original to check it."
+      ],
+      "example": {
+        "title": "Solve 3(x - 2) = x + 8",
+        "steps": [
+          "Open the bracket: 3x - 6 = x + 8.",
+          "Subtract x from both sides: 2x - 6 = 8.",
+          "Add 6 to both sides: 2x = 14.",
+          "Divide both sides by 2: x = 7."
+        ],
+        "answer": "x = 7. Check: 3(7 - 2) = 15, and 7 + 8 = 15."
+      }
+    },
+    {
+      "id": "sets",
+      "title": "Set Theory",
+      "hook": "A set is a collection with no duplicates and no particular order.",
+      "body": [
+        "Sets are written in curly brackets. A finite set has countable members, an infinite one does not, and the empty set has none at all. Two sets are equal if they hold exactly the same members, regardless of the order you wrote them in.",
+        "Union means everything in either set, written with a cup symbol. Intersection means only what sits in both, written with a cap. A Venn diagram makes both obvious at a glance, which is why examiners love asking you to draw one."
+      ],
+      "draw": "Two overlapping circles, big and loose. Label the left one A, the right one B, and the lens in the middle is the intersection. Shade it.",
+      "points": [
+        "Elements are never repeated inside a set.",
+        "The empty set is a subset of every set, including itself.",
+        "A union B holds everything; A intersection B holds only the shared part.",
+        "The number of subsets of a set with n members is 2 to the power n."
+      ],
+      "example": {
+        "title": "If A = {1, 2, 3, 4} and B = {3, 4, 5}, find both operations",
+        "steps": [
+          "Union: list every element once, from both sets.",
+          "A union B = {1, 2, 3, 4, 5}.",
+          "Intersection: list only the elements appearing in both.",
+          "A intersection B = {3, 4}."
+        ],
+        "answer": "Union has 5 members, intersection has 2. Try it in the lab below."
+      }
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "hook": "Angles, triangles and circles follow a handful of rules that never bend.",
+      "body": [
+        "When a straight line cuts two parallel lines, matching angles are equal: corresponding angles, alternate angles, and co-interior angles adding to 180 degrees. Nearly every parallel-lines question is solved by naming which pair you are using.",
+        "Triangle angles always sum to 180 degrees. Two triangles are congruent, meaning identical in shape and size, if they satisfy SSS, SAS, ASA, AAS or RHS. Symmetry comes in two kinds: reflection, where a mirror line maps the shape onto itself, and rotation, where turning about a centre does."
+      ],
+      "draw": "Draw any scruffy triangle, tear off the three corners, and lay them edge to edge. They form a straight line. That is the 180 degree rule, proved with your hands.",
+      "points": [
+        "Angles on a straight line add to 180; angles around a point add to 360.",
+        "The exterior angle of a triangle equals the sum of the two opposite interior angles.",
+        "A square has 4 lines of symmetry; a circle has infinitely many.",
+        "Order of rotational symmetry counts how many times a shape fits onto itself in one full turn."
+      ],
+      "example": {
+        "title": "A triangle has angles 3x, 4x and 5x. Find each one.",
+        "steps": [
+          "The three angles add to 180: 3x + 4x + 5x = 180.",
+          "Collect like terms: 12x = 180.",
+          "Divide: x = 15."
+        ],
+        "answer": "The angles are 45, 60 and 75 degrees. They add to 180, so it checks out."
+      }
+    },
+    {
+      "id": "mensuration",
+      "title": "Mensuration",
+      "hook": "Perimeter is the walk around it, area is the paint to cover it, volume is the water to fill it.",
+      "body": [
+        "For flat shapes: a rectangle has area length times breadth, a square has side squared, and a triangle has half base times height. The height must be perpendicular to the base you chose, which is the single most common slip.",
+        "For solids: a cube of side a has volume a cubed and surface area 6a squared. A cuboid has volume l x b x h and surface area 2(lb + bh + hl). Units matter: area comes out in square units, volume in cubic units."
+      ],
+      "draw": "Unfold a matchbox flat. The six rectangles you see are literally the surface area formula. Count them and the 2(lb + bh + hl) stops being something to memorise.",
+      "points": [
+        "Perimeter is a length, area is length squared, volume is length cubed.",
+        "Triangle height is always perpendicular to the base.",
+        "Convert all measurements to the same unit before calculating.",
+        "1 cubic centimetre holds 1 millilitre of water."
+      ],
+      "example": {
+        "title": "Find the volume and surface area of a cuboid 8 cm by 5 cm by 3 cm",
+        "steps": [
+          "Volume = l x b x h = 8 x 5 x 3 = 120.",
+          "Surface area = 2(lb + bh + hl).",
+          "lb = 40, bh = 15, hl = 24, so the sum is 79.",
+          "Surface area = 2 x 79 = 158."
+        ],
+        "answer": "Volume 120 cubic cm, surface area 158 square cm. Note the different units."
+      }
+    },
+    {
+      "id": "data-handling",
+      "title": "Data Handling",
+      "hook": "Three different answers to the question what is a typical value.",
+      "body": [
+        "Mean is the total shared equally, median is the middle value once sorted, and mode is the one that appears most often. They disagree whenever the data has an extreme value, and the disagreement is usually the interesting part.",
+        "Probability measures how likely something is, from 0 for impossible to 1 for certain. It is the number of favourable outcomes divided by the total number of equally likely outcomes."
+      ],
+      "draw": "Plot your data as a bar graph first, before calculating anything. The mode is the tallest bar, and you can usually eyeball roughly where the mean should land.",
+      "points": [
+        "Always sort the data before finding the median.",
+        "With an even count, the median is the average of the two middle values.",
+        "A set can have no mode, one mode, or several.",
+        "All the probabilities of an event and its opposite add to 1."
+      ],
+      "example": {
+        "title": "Find the mean, median and mode of 4, 7, 4, 9, 11",
+        "steps": [
+          "Mean: total is 4 + 7 + 4 + 9 + 11 = 35, and there are 5 values, so 35 / 5 = 7.",
+          "Sort them: 4, 4, 7, 9, 11. The middle value is 7.",
+          "Mode: 4 appears twice, everything else once."
+        ],
+        "answer": "Mean 7, median 7, mode 4. Here mean and median agree because the data is fairly even."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the HCF of 18 and 30?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "90"
+      ],
+      "a": 1,
+      "why": "18 = 2 x 3 x 3 and 30 = 2 x 3 x 5. The shared factors are 2 and 3, so the HCF is 6."
+    },
+    {
+      "q": "An item costing Rs 200 is sold for Rs 250. What is the profit percent?",
+      "options": [
+        "20 percent",
+        "25 percent",
+        "50 percent",
+        "125 percent"
+      ],
+      "a": 1,
+      "why": "Profit is Rs 50, and it is always divided by the cost price: (50 / 200) x 100 = 25 percent."
+    },
+    {
+      "q": "Solve: 5x - 4 = 21",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 5",
+        "x = 6"
+      ],
+      "a": 2,
+      "why": "Add 4 to both sides to get 5x = 25, then divide both sides by 5 to get x = 5."
+    },
+    {
+      "q": "If A = {2, 4, 6} and B = {4, 6, 8}, what is A intersection B?",
+      "options": [
+        "{2, 8}",
+        "{4, 6}",
+        "{2, 4, 6, 8}",
+        "The empty set"
+      ],
+      "a": 1,
+      "why": "Intersection keeps only the elements that appear in both sets, which are 4 and 6."
+    },
+    {
+      "q": "A cube has side 4 cm. What is its total surface area?",
+      "options": [
+        "16 square cm",
+        "64 square cm",
+        "96 square cm",
+        "256 square cm"
+      ],
+      "a": 2,
+      "why": "Surface area of a cube is 6 times side squared: 6 x 16 = 96 square cm. The 64 is its volume."
+    }
+  ]
+}

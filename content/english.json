@@ -1,0 +1,279 @@
+{
+  "id": "english",
+  "name": "English Language",
+  "color": "#C41E4C",
+  "ink": "#C41E4C",
+  "tagline": "Grammar is just the pattern underneath what you already say.",
+  "blurb": "Parts of speech, tenses, voice, speech, clauses, writing and reading.",
+  "intro": "You already speak English correctly most of the time. Grammar names the patterns you are using, so that when a sentence goes wrong you can say exactly why, and fix it on purpose rather than by ear.",
+  "labs": [
+    "tenses",
+    "voice"
+  ],
+  "chapters": [
+    {
+      "id": "parts-of-speech",
+      "title": "Parts of Speech",
+      "hook": "A word's part of speech depends on the job it is doing, not on the word itself.",
+      "body": [
+        "There are eight: noun, pronoun, adjective, verb, adverb, preposition, conjunction and interjection. A noun names, a pronoun replaces a noun, an adjective describes a noun, a verb is the action or state, and an adverb describes a verb, adjective or other adverb.",
+        "The same word can switch roles. In she will book a ticket, book is a verb. In she read the book, book is a noun. So never ask what part of speech is this word; ask what is this word doing in this sentence."
+      ],
+      "draw": "Take one sentence and colour-code each word by part of speech, one colour each. Do it for three sentences and the eight categories stop blurring together.",
+      "points": [
+        "Adjectives describe nouns; adverbs describe verbs, adjectives or other adverbs.",
+        "Prepositions show relationships of place, time or direction: in, on, under, before.",
+        "Conjunctions join: and, but, or, because, although.",
+        "A word's part of speech is decided by its function in that particular sentence."
+      ],
+      "example": {
+        "title": "Identify each part of speech: The clever girl quickly solved the hard sum.",
+        "steps": [
+          "The is an article, girl and sum are nouns.",
+          "Clever and hard are adjectives, describing girl and sum.",
+          "Solved is the verb.",
+          "Quickly is an adverb, describing how she solved it."
+        ],
+        "answer": "Clever describes a noun so it is an adjective; quickly describes a verb so it is an adverb."
+      }
+    },
+    {
+      "id": "tenses",
+      "title": "Tenses",
+      "hook": "Three times, four aspects, twelve forms. That is the whole grid.",
+      "body": [
+        "Tense tells you when, and aspect tells you how the action sits in time. The three tenses are past, present and future. The four aspects are simple, continuous, perfect and perfect continuous. Three times four gives the twelve tense forms, and they are completely regular once you see the grid.",
+        "Simple states a fact or habit. Continuous uses be plus the ing form for something ongoing. Perfect uses have plus the past participle for something completed with a link to now. Perfect continuous uses have been plus ing for something that started earlier and is still going."
+      ],
+      "draw": "Rule a four-by-three grid, aspects down the side and tenses across the top, and fill all twelve boxes for one verb. Keep it in your notebook and the twelve stop feeling like twelve separate things.",
+      "points": [
+        "Present perfect links a past action to now: I have finished.",
+        "Past perfect marks the earlier of two past actions: I had finished before she came.",
+        "Continuous forms always use a form of be plus the ing form.",
+        "Use the simple past, not the present perfect, when a finished past time is stated."
+      ],
+      "example": {
+        "title": "The verb write, first person, across four aspects in the present",
+        "steps": [
+          "Simple present: I write.",
+          "Present continuous: I am writing.",
+          "Present perfect: I have written.",
+          "Present perfect continuous: I have been writing."
+        ],
+        "answer": "Swap have for had to get all four past forms, and will have for the future. Try it in the lab below."
+      }
+    },
+    {
+      "id": "voice",
+      "title": "Active and Passive Voice",
+      "hook": "Passive voice moves the object to the front and demotes the doer.",
+      "body": [
+        "In the active voice the subject does the action: the gardener watered the plants. In the passive the object becomes the subject: the plants were watered by the gardener. The meaning is the same; the emphasis has moved.",
+        "To convert, swap subject and object, change the verb to the matching form of be plus the past participle, and put the original subject after by. The tense must not change. Only verbs that take an object can be made passive, which is why intransitive verbs such as sleep or arrive have no passive form."
+      ],
+      "draw": "Write an active sentence and draw arrows showing the subject and object swapping places. Mark the verb change above the arrow. Three examples and the mechanism is fixed.",
+      "points": [
+        "Keep the tense identical when converting between voices.",
+        "The by phrase can be dropped when the doer is unknown or unimportant.",
+        "Only transitive verbs, those taking an object, have a passive form.",
+        "The passive is useful when the action matters more than the doer."
+      ],
+      "example": {
+        "title": "Convert to passive: The students completed the project.",
+        "steps": [
+          "Object is the project, so it becomes the new subject.",
+          "Tense is simple past, so the passive verb is was or were plus the past participle.",
+          "The project is singular, so use was completed.",
+          "The original subject follows by."
+        ],
+        "answer": "The project was completed by the students. Tense stays simple past throughout."
+      }
+    },
+    {
+      "id": "speech",
+      "title": "Direct and Indirect Speech",
+      "hook": "Reporting what someone said means shifting the tense, the pronouns and the time words.",
+      "body": [
+        "Direct speech quotes the exact words inside inverted commas. Indirect speech reports them without quotation marks. Three things shift: the tense usually moves one step back, the pronouns change to match the new speaker, and time and place words change too, so now becomes then, today becomes that day, and here becomes there.",
+        "The reporting verb changes with the sentence type. Statements use said that, questions use asked if or asked plus the question word, commands use ordered or told, and requests use requested. For questions, the reported part returns to normal statement word order."
+      ],
+      "draw": "Make a three-column shift table: tense shifts, pronoun shifts, time and place shifts. Nearly every conversion question is testing one of those three columns.",
+      "points": [
+        "Present simple shifts to past simple; past simple shifts to past perfect.",
+        "A universal truth does not shift tense: he said that the Sun rises in the east.",
+        "Reported questions lose the question mark and return to statement word order.",
+        "Commands become an infinitive: he told me to wait."
+      ],
+      "example": {
+        "title": "Convert: She said, I am reading this book now.",
+        "steps": [
+          "Reporting verb said becomes said that.",
+          "Pronoun I refers to her, so it becomes she.",
+          "Present continuous am reading shifts back to was reading.",
+          "Now becomes then, and this becomes that."
+        ],
+        "answer": "She said that she was reading that book then."
+      }
+    },
+    {
+      "id": "clauses",
+      "title": "Phrases, Clauses and Synthesis",
+      "hook": "A clause has a verb. A phrase does not.",
+      "body": [
+        "That one test settles it: if a group of words contains its own subject and verb, it is a clause; if not, it is a phrase. In the boy with the red bag ran, with the red bag is a phrase, and the whole thing is one clause.",
+        "A main clause makes sense alone. A subordinate clause does not, and it depends on a main clause. Synthesis means combining several short sentences into one longer one, using a participle, an infinitive, a conjunction or a relative pronoun such as who, which or that."
+      ],
+      "draw": "Underline the verbs in a long sentence. Count them: that is how many clauses you have. Then box the one that could stand alone, which is the main clause.",
+      "points": [
+        "A clause has a subject and a verb; a phrase has no finite verb.",
+        "A main clause makes complete sense alone; a subordinate clause does not.",
+        "A simple sentence has one clause, a compound has two main clauses joined, a complex has a main plus a subordinate.",
+        "Relative pronouns who, whom, which and that introduce adjective clauses."
+      ],
+      "example": {
+        "title": "Combine into one sentence: He was tired. He finished the work.",
+        "steps": [
+          "Using a participle: Being tired, he finished the work.",
+          "Using a conjunction: Although he was tired, he finished the work.",
+          "Using in spite of: In spite of being tired, he finished the work."
+        ],
+        "answer": "All three are correct. Although gives a complex sentence with a subordinate clause of contrast."
+      }
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "hook": "Words travel in families, and the family is easier to learn than the word.",
+      "body": [
+        "Synonyms mean nearly the same and antonyms mean the opposite, but near is the key word: brave and fearless are not interchangeable in every sentence. Homonyms sound alike but differ in meaning or spelling, such as their, there and they're, or principal and principle.",
+        "An idiom means something different from its literal words: to let the cat out of the bag is to reveal a secret. A phrasal verb is a verb plus a preposition or adverb that changes the meaning, so give up is to quit and give in is to surrender, even though both start with give."
+      ],
+      "draw": "Keep a vocabulary page with four columns: the word, a synonym, an antonym, and your own sentence. Writing your own sentence is the step that makes it stick.",
+      "points": [
+        "Synonyms are rarely perfect substitutes; check the sentence before swapping.",
+        "Homophones sound the same but are spelled differently: your and you're.",
+        "An idiom cannot be worked out from its individual words.",
+        "Changing the particle changes a phrasal verb's meaning completely."
+      ],
+      "example": {
+        "title": "What do these idioms mean?",
+        "steps": [
+          "A piece of cake: something very easy.",
+          "Once in a blue moon: very rarely.",
+          "To burn the midnight oil: to work or study late into the night.",
+          "To be in hot water: to be in trouble."
+        ],
+        "answer": "None of these can be worked out literally, which is exactly what makes them idioms."
+      }
+    },
+    {
+      "id": "comprehension",
+      "title": "Comprehension",
+      "hook": "Read the questions first; you will read the passage differently.",
+      "body": [
+        "Unseen passage questions come in three kinds. Factual questions have the answer written in the passage, so find it and quote it in your own words. Inferential questions need you to work out something the passage implies but never states. Vocabulary questions ask for the meaning of a word as used in that passage, which may not be its usual meaning.",
+        "The method: skim the questions, read the passage fully once, then reread while answering. Answer in complete sentences, use your own words rather than copying whole lines, and never add information from outside the passage however true it may be."
+      ],
+      "draw": "Number the paragraphs and jot a three-word summary beside each as you read. When a question comes, that margin note tells you which paragraph to go back to.",
+      "points": [
+        "Read the questions before the passage so you know what to look for.",
+        "Answer only from the passage, never from general knowledge.",
+        "Rephrase in your own words instead of copying whole sentences.",
+        "Check the marks allotted: it tells you how much detail is wanted."
+      ],
+      "example": {
+        "title": "What is the difference between a factual and an inferential question?",
+        "steps": [
+          "Factual: the answer is stated somewhere in the text. Find it and rephrase it.",
+          "Inferential: the answer is not stated, but the text points to it.",
+          "Inferential questions often use words like why, suggest or imply.",
+          "For those, find the evidence in the text and then reason one step from it."
+        ],
+        "answer": "Factual means locate it; inferential means locate the clue, then reason one step beyond."
+      }
+    },
+    {
+      "id": "composition",
+      "title": "Composition",
+      "hook": "Plan for two minutes and you will write for twenty without getting stuck.",
+      "body": [
+        "Essays need a clear beginning, middle and end. A narrative essay tells a story in sequence; a descriptive essay builds a picture using the senses. In either, plan three or four points before you start writing, because a plan is what stops you from drifting.",
+        "Letters follow fixed formats, and the format itself carries marks. A formal letter needs the sender's address, date, receiver's address, subject line, salutation, body and a formal close such as Yours faithfully. An informal letter drops the receiver's address and subject line. A notice must be boxed, carry the issuing body's name, a heading, the date, and the writer's name and designation."
+      ],
+      "draw": "Draw the formal letter layout once as an empty template, with boxes where each element goes. Memorise the shape rather than the words, and the format marks become automatic.",
+      "points": [
+        "Spend the first two minutes planning your points.",
+        "Formal letters end Yours faithfully to a stranger, Yours sincerely when you named them.",
+        "A notice is impersonal, written in the third person, and always boxed.",
+        "Stay within the word limit: going well over is penalised."
+      ],
+      "example": {
+        "title": "What must a notice always contain?",
+        "steps": [
+          "The name of the issuing organisation at the top.",
+          "The word NOTICE and the date of issue.",
+          "A clear heading saying what it is about.",
+          "The body with what, when and where, then the writer's name and designation."
+        ],
+        "answer": "All of it inside a box. A notice is never written in the first person."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "In the sentence She sang beautifully, what part of speech is beautifully?",
+      "options": [
+        "Adjective",
+        "Adverb",
+        "Verb",
+        "Noun"
+      ],
+      "a": 1,
+      "why": "It describes how she sang, and a word describing a verb is an adverb. Adjectives describe nouns."
+    },
+    {
+      "q": "Which sentence is in the present perfect tense?",
+      "options": [
+        "I write letters",
+        "I am writing a letter",
+        "I have written a letter",
+        "I wrote a letter"
+      ],
+      "a": 2,
+      "why": "Present perfect is have or has plus the past participle, linking a completed action to now."
+    },
+    {
+      "q": "Change to passive: The chef cooked the meal.",
+      "options": [
+        "The meal is cooked by the chef",
+        "The meal was cooked by the chef",
+        "The meal has been cooked by the chef",
+        "The meal cooked the chef"
+      ],
+      "a": 1,
+      "why": "The active verb is simple past, so the passive must stay simple past: was cooked."
+    },
+    {
+      "q": "She said, I am busy today. In indirect speech this becomes...",
+      "options": [
+        "She said that she is busy today",
+        "She said that she was busy that day",
+        "She said that I was busy today",
+        "She says that she was busy then"
+      ],
+      "a": 1,
+      "why": "The tense shifts back, the pronoun becomes she, and today becomes that day. All three shifts are needed."
+    },
+    {
+      "q": "What makes a group of words a clause rather than a phrase?",
+      "options": [
+        "Its length",
+        "It has its own subject and verb",
+        "It starts with a capital letter",
+        "It contains an adjective"
+      ],
+      "a": 1,
+      "why": "A clause has a subject and a finite verb. A phrase has no finite verb, however long it is."
+    }
+  ]
+}

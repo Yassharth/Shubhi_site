@@ -1,0 +1,246 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "color": "#7A3CF0",
+  "ink": "#7A3CF0",
+  "tagline": "Why things move, glow, warm up and sing.",
+  "blurb": "Measurement, motion, energy, light, heat, sound and the pull of magnets.",
+  "intro": "Physics is the habit of asking what is actually happening here, and then measuring it. Nearly every chapter this year comes back to energy moving from one place to another, changing form but never disappearing.",
+  "labs": [
+    "reflection"
+  ],
+  "chapters": [
+    {
+      "id": "measurement",
+      "title": "Physical Quantities and Measurement",
+      "hook": "A number without a unit is not an answer.",
+      "body": [
+        "A physical quantity has a size and a unit. The SI units you need are the metre for length, kilogram for mass, second for time, and from these you build area in square metres and volume in cubic metres.",
+        "Density is mass per unit volume, and it explains why a huge log floats while a small nail sinks. For a regular solid, calculate volume from its dimensions. For an irregular one, drop it into a measuring cylinder and measure how much the water rises: that rise is the volume."
+      ],
+      "draw": "Sketch a measuring cylinder before and after a stone goes in, and label the two water levels. The gap between them is the stone's volume.",
+      "points": [
+        "Density = mass divided by volume, measured in g per cubic cm or kg per cubic m.",
+        "The displacement method finds the volume of any irregular solid.",
+        "Water has density 1 g per cubic cm, which is the comparison point for floating.",
+        "An object floats if its density is less than that of the liquid."
+      ],
+      "example": {
+        "title": "A metal block of mass 270 g displaces 100 ml of water. Find its density.",
+        "steps": [
+          "The volume displaced equals the volume of the block: 100 ml = 100 cubic cm.",
+          "Density = mass / volume = 270 / 100.",
+          "= 2.7 g per cubic cm."
+        ],
+        "answer": "2.7 g per cubic cm, which is the density of aluminium. It is denser than water, so it sinks."
+      }
+    },
+    {
+      "id": "motion",
+      "title": "Motion",
+      "hook": "Nothing is truly still; it depends what you measure it against.",
+      "body": [
+        "An object is in motion if its position changes relative to a chosen reference point. Motion comes in types: translatory in a straight or curved line, rotational about an axis, and oscillatory back and forth.",
+        "A scalar quantity has only size, like distance, speed, mass and time. A vector has size and direction, like displacement, velocity and force. Speed is distance over time; velocity is displacement over time, so it carries a direction with it."
+      ],
+      "draw": "Walk 3 steps right and 4 steps left on a sketched grid. Distance travelled is 7 steps, displacement is 1 step left. Drawing it settles the difference permanently.",
+      "points": [
+        "Distance is a scalar; displacement is a vector and can be zero on a round trip.",
+        "Uniform motion covers equal distances in equal intervals of time.",
+        "Speed in SI is metres per second; divide km/h by 3.6 to convert.",
+        "A velocity can change by changing direction alone, even at constant speed."
+      ],
+      "example": {
+        "title": "A cyclist covers 150 m in 30 s. Find the speed in m/s and km/h.",
+        "steps": [
+          "Speed = distance / time = 150 / 30 = 5 m/s.",
+          "To convert to km/h, multiply by 3.6.",
+          "5 x 3.6 = 18."
+        ],
+        "answer": "5 m/s, which is 18 km/h."
+      }
+    },
+    {
+      "id": "energy",
+      "title": "Energy",
+      "hook": "Energy never vanishes. It just changes costume.",
+      "body": [
+        "Work is done only when a force moves something along the direction of the force: W = F x d, measured in joules. Push a wall all day and the physics answer is that you did zero work, however tired you feel.",
+        "Kinetic energy is the energy of motion, KE = half m v squared. Potential energy is stored energy of position, PE = mgh. The law of conservation of energy says the total stays constant in a closed system: as a ball falls, PE converts into KE."
+      ],
+      "draw": "Draw a ball at three heights on its way down, with two bars beside each: a PE bar shrinking and a KE bar growing. The two bars always add to the same total.",
+      "points": [
+        "Work = force x distance moved in the direction of the force.",
+        "The joule is the unit of work and of energy alike.",
+        "KE depends on the square of speed, so doubling speed quadruples KE.",
+        "Energy can be transformed but never created or destroyed."
+      ],
+      "example": {
+        "title": "A 2 kg ball is lifted 5 m. Find its potential energy. Take g as 10 m/s squared.",
+        "steps": [
+          "PE = m x g x h.",
+          "= 2 x 10 x 5.",
+          "= 100."
+        ],
+        "answer": "100 joules. If it is dropped, it arrives with 100 J of kinetic energy, ignoring air resistance."
+      }
+    },
+    {
+      "id": "light",
+      "title": "Light Energy",
+      "hook": "Light bounces at exactly the angle it arrived at.",
+      "body": [
+        "The laws of reflection are short and absolute. First, the angle of incidence equals the angle of reflection. Second, the incident ray, the reflected ray and the normal all lie in one plane. Angles are always measured from the normal, the dotted line at right angles to the surface, never from the surface itself.",
+        "A plane mirror gives an image that is virtual, erect, the same size, and laterally inverted, as far behind the mirror as you are in front. A concave mirror curves inwards and can converge light to a point; a convex mirror curves outwards, always giving a small erect image and a wide view, which is why it is used as a vehicle rear-view mirror."
+      ],
+      "draw": "Draw a mirror line, a dotted normal, and the incoming and outgoing rays. Mark both angles from the dotted line. Get into this habit and ray diagrams stop going wrong.",
+      "points": [
+        "Angle of incidence always equals angle of reflection.",
+        "All angles in optics are measured from the normal.",
+        "A plane mirror image is virtual, erect and laterally inverted.",
+        "Convex mirrors always give diminished erect images and a wider field of view."
+      ],
+      "example": {
+        "title": "A ray strikes a plane mirror at 30 degrees to the mirror surface. Find the angle of reflection.",
+        "steps": [
+          "The angle given is from the surface, not the normal.",
+          "Angle of incidence = 90 - 30 = 60 degrees.",
+          "By the law of reflection, the reflected angle matches it."
+        ],
+        "answer": "60 degrees from the normal. The trap is using 30 straight from the question."
+      }
+    },
+    {
+      "id": "heat",
+      "title": "Heat",
+      "hook": "Heat is the energy that moves; temperature is how hot something is.",
+      "body": [
+        "Heat flows from hotter to colder until both reach the same temperature. Temperature is measured in degrees Celsius or in kelvin, where the kelvin value is the Celsius value plus 273.",
+        "Most substances expand on heating because their particles vibrate harder and need more room. Heat travels three ways: conduction through solids by particle contact, convection through fluids by the actual movement of warmer, less dense material rising, and radiation through empty space as waves, which is how the Sun reaches us."
+      ],
+      "draw": "Draw three panels: a spoon in hot tea for conduction, a pot of water with looping arrows for convection, and the Sun with straight arrows for radiation. One picture, three mechanisms.",
+      "points": [
+        "Heat is energy in transit; temperature is a measure of hotness.",
+        "Kelvin = Celsius + 273.",
+        "Conduction needs a medium and contact; convection needs a fluid that can flow.",
+        "Radiation needs no medium at all, so it crosses the vacuum of space."
+      ],
+      "example": {
+        "title": "Why is the handle of a good cooking pot made of plastic or wood?",
+        "steps": [
+          "The pot body must transfer heat well, so it is metal, a good conductor.",
+          "The handle must not transfer heat to your hand.",
+          "Plastic and wood are poor conductors, also called insulators."
+        ],
+        "answer": "The handle is an insulator, so heat from the pot does not conduct into your hand."
+      }
+    },
+    {
+      "id": "sound",
+      "title": "Sound",
+      "hook": "Sound is a vibration that needs something to travel through.",
+      "body": [
+        "Sound is produced by a vibrating object and travels as a wave through a medium. It cannot travel through a vacuum, which is why space is silent. It moves fastest through solids, slower through liquids, and slowest through gases, because the particles are packed closer in solids and pass the vibration on faster.",
+        "Amplitude is the height of the wave and controls loudness. Frequency is the number of vibrations per second, measured in hertz, and controls pitch: high frequency means a high note. Humans can hear roughly 20 Hz to 20,000 Hz."
+      ],
+      "draw": "Draw two waves side by side. One tall and one short for loud and soft; one squeezed and one stretched for high and low pitch. Four sounds in one sketch.",
+      "points": [
+        "Sound needs a material medium; it cannot travel through a vacuum.",
+        "Amplitude controls loudness; frequency controls pitch.",
+        "Speed of sound in air is about 330 to 340 m/s at room temperature.",
+        "Sound travels faster in solids than in liquids, and faster in liquids than in gases."
+      ],
+      "example": {
+        "title": "Thunder is heard 3 s after the lightning is seen. How far away is the storm?",
+        "steps": [
+          "Light arrives almost instantly, so the 3 s is the sound's travel time.",
+          "Distance = speed x time, taking speed of sound as 340 m/s.",
+          "= 340 x 3 = 1020."
+        ],
+        "answer": "About 1020 m, roughly 1 km away."
+      }
+    },
+    {
+      "id": "electricity-magnetism",
+      "title": "Electricity and Magnetism",
+      "hook": "A circuit has to be a complete loop or nothing happens.",
+      "body": [
+        "Electric current is the flow of charge through a conductor, and it only flows if the circuit is closed. A cell provides the push, a switch opens or closes the loop, and a bulb or resistor uses the energy. Conductors such as copper let charge flow; insulators such as rubber and plastic do not.",
+        "A magnet has two poles, north and south. Like poles repel and unlike poles attract. The Earth itself behaves as a giant magnet, which is why a freely suspended magnet settles pointing roughly north and south, the principle behind the compass."
+      ],
+      "draw": "Draw a circuit with the standard symbols: a long and short line for a cell, a circle with a cross for a bulb, a gap for an open switch. Trace the loop with your finger to check it is closed.",
+      "points": [
+        "Current flows only in a closed circuit.",
+        "In a series circuit the same current passes through every component.",
+        "Like magnetic poles repel; unlike poles attract.",
+        "The geographic north of Earth behaves as a magnetic south pole, which is why a compass needle's north end points there."
+      ],
+      "example": {
+        "title": "A bulb in a series circuit stops glowing. What should you check?",
+        "steps": [
+          "Check the cell: it may be flat, giving no push.",
+          "Check the switch: an open switch breaks the loop.",
+          "Check the connections and the bulb filament for a break."
+        ],
+        "answer": "Any break anywhere stops the whole series circuit, because the current has only one path."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A stone of mass 150 g displaces 50 ml of water. What is its density?",
+      "options": [
+        "0.33 g per cubic cm",
+        "3 g per cubic cm",
+        "7.5 g per cubic cm",
+        "200 g per cubic cm"
+      ],
+      "a": 1,
+      "why": "Density is mass divided by volume: 150 / 50 = 3 g per cubic cm."
+    },
+    {
+      "q": "Which of these is a vector quantity?",
+      "options": [
+        "Distance",
+        "Speed",
+        "Velocity",
+        "Mass"
+      ],
+      "a": 2,
+      "why": "Velocity has both size and direction. Distance, speed and mass have size only, so they are scalars."
+    },
+    {
+      "q": "A ray hits a plane mirror with an angle of incidence of 35 degrees. What is the angle of reflection?",
+      "options": [
+        "35 degrees",
+        "55 degrees",
+        "70 degrees",
+        "90 degrees"
+      ],
+      "a": 0,
+      "why": "The first law of reflection says the angle of reflection always equals the angle of incidence."
+    },
+    {
+      "q": "How does heat from the Sun reach the Earth?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "All three equally"
+      ],
+      "a": 2,
+      "why": "Space is a vacuum. Only radiation travels without a medium, so conduction and convection are impossible there."
+    },
+    {
+      "q": "Which property of a sound wave decides its pitch?",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Speed",
+        "Loudness"
+      ],
+      "a": 1,
+      "why": "Frequency sets pitch: more vibrations per second gives a higher note. Amplitude sets loudness instead."
+    }
+  ]
+}

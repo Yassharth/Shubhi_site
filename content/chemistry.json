@@ -1,0 +1,248 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "color": "#0E95D6",
+  "ink": "#0974A8",
+  "tagline": "Everything is made of particles, and they are always busy.",
+  "blurb": "Matter, change, atoms, the language of formulae, air and water.",
+  "intro": "Chemistry makes sense the moment you stop thinking about substances and start thinking about the particles inside them. Melting, dissolving, burning and rusting are all stories about particles moving, separating or rearranging.",
+  "labs": [
+    "states",
+    "separation"
+  ],
+  "chapters": [
+    {
+      "id": "matter",
+      "title": "Matter and its Composition",
+      "hook": "Solid, liquid, gas: same particles, different spacing and speed.",
+      "body": [
+        "The kinetic theory says all matter is made of tiny particles that are in constant motion and attract one another. How strongly they attract, and how fast they move, decides which state you get.",
+        "In a solid the particles are packed tightly in a fixed arrangement and only vibrate, so a solid holds its shape and volume. In a liquid they are close but can slide past one another, so it keeps its volume but takes the container's shape. In a gas they are far apart and move fast in all directions, so a gas fills whatever it is put in."
+      ],
+      "draw": "Three boxes of dots: neatly stacked, loosely jumbled, and widely scattered with motion lines. That single sketch answers most state-of-matter questions.",
+      "points": [
+        "Particles are in constant motion at all temperatures.",
+        "Heating increases particle energy, so spacing and movement increase.",
+        "Solids have fixed shape and volume; liquids fixed volume only; gases neither.",
+        "Gases are easily compressed because of the large gaps between particles."
+      ],
+      "example": {
+        "title": "Why can you smell food cooking from another room?",
+        "steps": [
+          "Particles of the gas given off are in constant random motion.",
+          "They spread out and mix with the moving particles of air.",
+          "This spreading of particles from high to low concentration is diffusion."
+        ],
+        "answer": "Diffusion. It is faster in gases than in liquids because gas particles move faster and have more space."
+      }
+    },
+    {
+      "id": "changes",
+      "title": "Physical and Chemical Changes",
+      "hook": "Did a new substance appear? That is the only question that matters.",
+      "body": [
+        "In a physical change no new substance forms, and the change is usually easy to reverse. Ice melting, water boiling, sugar dissolving and paper being torn are all physical: the substance is still what it was.",
+        "In a chemical change a new substance forms with new properties, and the change is usually hard to reverse. Signs include a colour change, a gas given off, heat or light produced, or a precipitate forming. Burning, rusting, cooking and curdling are chemical."
+      ],
+      "draw": "Make a two-column list from your own kitchen: things that could be undone, things that could not. The second column is your chemical changes.",
+      "points": [
+        "Physical change: no new substance, usually reversible.",
+        "Chemical change: new substance formed, usually irreversible.",
+        "Dissolving sugar is physical; burning it is chemical.",
+        "Rusting needs both oxygen and water, and forms hydrated iron oxide."
+      ],
+      "example": {
+        "title": "Classify: a candle burning",
+        "steps": [
+          "The wax melts near the flame, which is a physical change and reversible.",
+          "The melted wax vapour then burns, producing carbon dioxide and water vapour.",
+          "Those are new substances that cannot be turned back into wax."
+        ],
+        "answer": "Both at once. Melting is physical, burning is chemical. Examiners love this one."
+      }
+    },
+    {
+      "id": "mixtures",
+      "title": "Elements, Compounds and Mixtures",
+      "hook": "A compound is cooked; a mixture is merely stirred.",
+      "body": [
+        "An element contains only one kind of atom and cannot be broken down chemically. A compound has two or more elements chemically combined in a fixed ratio, and its properties are completely different from the elements inside it. A mixture is just substances physically together in any ratio, each keeping its own properties.",
+        "Because mixtures are only physically combined, they can be separated physically. Which method you choose depends on the difference between the components: use filtration for an insoluble solid in a liquid, evaporation for a dissolved solid you want back, distillation when you want the liquid back, and chromatography to split mixed dyes or inks."
+      ],
+      "draw": "Drop a blob of black marker ink on filter paper and dip the edge in water. The colours climb apart. You have just run a chromatogram and proved black ink is a mixture.",
+      "points": [
+        "Elements cannot be broken down by chemical means; compounds can.",
+        "A compound has a fixed ratio; a mixture has any ratio.",
+        "Filtration separates an insoluble solid from a liquid.",
+        "Distillation recovers the liquid; simple evaporation does not."
+      ],
+      "example": {
+        "title": "How would you separate salt from sand?",
+        "steps": [
+          "Add water and stir. Salt dissolves, sand does not.",
+          "Filter the mixture. Sand stays as residue on the filter paper.",
+          "Evaporate the filtrate to recover solid salt."
+        ],
+        "answer": "Dissolving, then filtration, then evaporation. The trick is using the solubility difference."
+      }
+    },
+    {
+      "id": "atomic-structure",
+      "title": "Atomic Structure",
+      "hook": "A tiny heavy centre, with electrons arranged in shells around it.",
+      "body": [
+        "An atom is the smallest particle of an element that can take part in a chemical reaction. It has protons with positive charge and neutrons with no charge in the nucleus, and electrons with negative charge in shells around it. Atomic number counts the protons; mass number counts protons plus neutrons.",
+        "Electrons fill shells from the inside out, holding at most 2, then 8, then 8. Valency is the combining capacity of an atom, worked out from how many electrons it must gain, lose or share to fill its outer shell. A radical is a group of atoms acting as a single unit with its own charge, like sulphate or nitrate."
+      ],
+      "draw": "Draw sodium: 11 electrons as 2, 8, 1. That single outer electron is why sodium is so reactive and why its valency is 1.",
+      "points": [
+        "Atomic number = number of protons; in a neutral atom it also equals the electrons.",
+        "Mass number = protons + neutrons. Electrons are too light to count.",
+        "Shells hold a maximum of 2, 8, 8 for the elements you study this year.",
+        "Valency is decided by the electrons in the outermost shell."
+      ],
+      "example": {
+        "title": "Magnesium has atomic number 12 and mass number 24. Describe its atom.",
+        "steps": [
+          "Protons = atomic number = 12. Electrons = 12 in a neutral atom.",
+          "Neutrons = mass number - atomic number = 24 - 12 = 12.",
+          "Electron arrangement: 2, 8, 2."
+        ],
+        "answer": "12 protons, 12 neutrons, 12 electrons as 2, 8, 2. It loses 2 electrons easily, so its valency is 2."
+      }
+    },
+    {
+      "id": "language-chemistry",
+      "title": "Language of Chemistry",
+      "hook": "A formula is a sentence written in symbols, and it has to balance.",
+      "body": [
+        "Each element has a symbol, one or two letters, with only the first capitalised: Co is cobalt but CO is carbon monoxide. A chemical formula uses valencies to work out how many of each atom combine, usually by the criss-cross method where each element's valency becomes the other's subscript.",
+        "A chemical equation must be balanced because atoms are never created or destroyed in a reaction. Balance by changing the big numbers in front of formulae, never the small subscripts inside them, because changing a subscript changes the substance itself."
+      ],
+      "draw": "Tally the atoms of each element on both sides in two columns. When every row matches, the equation is balanced. It is bookkeeping, not guesswork.",
+      "points": [
+        "Only the first letter of an element symbol is capitalised.",
+        "Criss-cross the valencies to build a formula, then simplify the ratio.",
+        "Balance equations with coefficients in front, never by editing subscripts.",
+        "The number of atoms of each element must match on both sides."
+      ],
+      "example": {
+        "title": "Balance: H2 + O2 gives H2O",
+        "steps": [
+          "Count oxygen: 2 on the left, 1 on the right. Put a 2 in front of water.",
+          "Now H2 + O2 gives 2H2O. Hydrogen is 2 on the left and 4 on the right.",
+          "Put a 2 in front of hydrogen: 2H2 + O2 gives 2H2O.",
+          "Recount: H is 4 and 4, O is 2 and 2."
+        ],
+        "answer": "2H2 + O2 gives 2H2O. Always recount every element after each change."
+      }
+    },
+    {
+      "id": "air",
+      "title": "Air and Atmosphere",
+      "hook": "Air is a mixture, and the proof is that you can separate it.",
+      "body": [
+        "Dry air is roughly 78 percent nitrogen, 21 percent oxygen, and small amounts of carbon dioxide, argon and other gases, plus variable water vapour. Because it is a mixture, the proportions vary slightly from place to place and the gases keep their own properties.",
+        "Oxygen supports combustion and respiration. Nitrogen dilutes oxygen so that burning is controlled, and it is essential for making proteins. Carbon dioxide is used by plants in photosynthesis and traps heat in the atmosphere. Air pollution comes from vehicle exhaust, burning fuels and industrial smoke, causing breathing illness, acid rain and a strengthened greenhouse effect."
+      ],
+      "draw": "Draw a circle divided into 100 parts. Shade 78 one colour and 21 another. The tiny slice left over is everything else, including all the carbon dioxide.",
+      "points": [
+        "Nitrogen is the most abundant gas in air, at about 78 percent.",
+        "Oxygen supports combustion but does not itself burn.",
+        "Carbon dioxide turns limewater milky, which is the standard test.",
+        "Air is a mixture, not a compound, because its components keep their properties."
+      ],
+      "example": {
+        "title": "A burning candle under an upturned glass goes out. Why?",
+        "steps": [
+          "Burning uses up the oxygen trapped inside the glass.",
+          "Carbon dioxide and water vapour build up in its place.",
+          "Once the oxygen is too low, combustion cannot continue."
+        ],
+        "answer": "Oxygen is used up. This also shows roughly one fifth of air supports burning."
+      }
+    },
+    {
+      "id": "water",
+      "title": "Water",
+      "hook": "It dissolves more substances than any other liquid, which is why it is never pure.",
+      "body": [
+        "Water is called the universal solvent because so many substances dissolve in it. A solution has a solute dissolved in a solvent. It is unsaturated if more solute can still dissolve, and saturated once no more will dissolve at that temperature. Raising the temperature usually lets a solid solute dissolve more.",
+        "Hard water contains dissolved calcium and magnesium salts. It wastes soap, forming scum instead of lather, and leaves scale in kettles and pipes. Temporary hardness, caused by bicarbonates, is removed by boiling; permanent hardness, caused by sulphates and chlorides, needs washing soda or an ion exchange method."
+      ],
+      "draw": "Draw two glasses with soap added, one lathering and one with grey scum. Label them soft and hard. That is the standard test in one picture.",
+      "points": [
+        "Solute dissolves in solvent to form a solution.",
+        "A saturated solution can dissolve no more solute at that temperature.",
+        "Hard water does not lather easily with soap.",
+        "Boiling removes temporary hardness only."
+      ],
+      "example": {
+        "title": "How would you test whether a water sample is hard or soft?",
+        "steps": [
+          "Take equal volumes of the sample and of distilled water in two test tubes.",
+          "Add soap solution drop by drop to each, shaking after every drop.",
+          "Compare how much soap each needs to form a lasting lather."
+        ],
+        "answer": "Hard water needs far more soap and forms scum first. Soft water lathers almost at once."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which state of matter has a fixed volume but takes the shape of its container?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "None of these"
+      ],
+      "a": 1,
+      "why": "Liquid particles are close together, fixing the volume, but they slide past each other so the shape changes."
+    },
+    {
+      "q": "Which of these is a chemical change?",
+      "options": [
+        "Melting of ice",
+        "Dissolving sugar in water",
+        "Rusting of iron",
+        "Tearing paper"
+      ],
+      "a": 2,
+      "why": "Rusting forms hydrated iron oxide, a brand new substance, and it cannot easily be reversed."
+    },
+    {
+      "q": "An atom has atomic number 8 and mass number 16. How many neutrons does it have?",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "4"
+      ],
+      "a": 0,
+      "why": "Neutrons = mass number minus atomic number = 16 - 8 = 8. This atom is oxygen."
+    },
+    {
+      "q": "Which gas is most abundant in the air around us?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "a": 2,
+      "why": "Nitrogen makes up about 78 percent of dry air. Oxygen is second at about 21 percent."
+    },
+    {
+      "q": "Which method would you use to recover pure water from salty water?",
+      "options": [
+        "Filtration",
+        "Distillation",
+        "Chromatography",
+        "Evaporation"
+      ],
+      "a": 1,
+      "why": "Distillation boils the water off and condenses it back, so you keep the liquid. Plain evaporation loses it."
+    }
+  ]
+}

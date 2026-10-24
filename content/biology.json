@@ -1,0 +1,197 @@
+{
+  "id": "biology",
+  "name": "Biology",
+  "color": "#1E9E58",
+  "ink": "#167D45",
+  "tagline": "Living things, from a single tissue to a whole kingdom.",
+  "blurb": "Tissues, classification, how plants eat, and two systems inside you.",
+  "intro": "Biology this year zooms out steadily: tissues, then organs, then whole organisms, then the five kingdoms that hold all of them. Keep asking what job does this part do, and the names start sticking by themselves.",
+  "labs": [
+    "photosynthesis"
+  ],
+  "chapters": [
+    {
+      "id": "tissue",
+      "title": "Tissue",
+      "hook": "A group of similar cells doing one job together.",
+      "body": [
+        "Plant tissues split into two families. Meristematic tissue is made of young dividing cells and is found at root and shoot tips, which is where growth happens. Permanent tissue has stopped dividing and taken on a fixed job: parenchyma stores food, collenchyma gives flexible support, sclerenchyma gives rigid strength, xylem carries water upward and phloem carries food in both directions.",
+        "Animal tissues come in four types. Epithelial tissue covers and lines surfaces, connective tissue joins and supports and includes bone, blood and cartilage, muscular tissue contracts to cause movement, and nervous tissue carries electrical messages."
+      ],
+      "draw": "Sketch a cross-section of a stem and colour xylem one colour and phloem another. Water up, food both ways: label the arrows and the two never get confused again.",
+      "points": [
+        "Meristematic tissue divides; permanent tissue is specialised and does not.",
+        "Xylem transports water and minerals upward only.",
+        "Phloem transports prepared food, and it can move in both directions.",
+        "Blood is a connective tissue, which surprises people, because it connects and transports."
+      ],
+      "example": {
+        "title": "Which tissue lets you bend your arm, and which carries the instruction?",
+        "steps": [
+          "The instruction travels from the brain as an electrical signal.",
+          "Nervous tissue carries that signal to the arm.",
+          "Muscular tissue then contracts to produce the movement."
+        ],
+        "answer": "Nervous tissue signals, muscular tissue acts. Bone, a connective tissue, provides the lever."
+      }
+    },
+    {
+      "id": "classification",
+      "title": "Kingdom Classification",
+      "hook": "Five boxes, sorted by how complex the cell is and how the organism feeds.",
+      "body": [
+        "Monera are single-celled prokaryotes, meaning they have no proper nucleus. Bacteria and blue-green algae live here. Protista are single-celled eukaryotes with a true nucleus, such as amoeba, paramecium and euglena.",
+        "Fungi are multicellular, have cell walls made of chitin, and feed by absorbing nutrients from dead or living matter. Plantae are multicellular with cellulose cell walls and make their own food by photosynthesis. Animalia are multicellular, have no cell wall, and must eat other organisms."
+      ],
+      "draw": "Make a key: one nucleus question, one single-or-many-cells question, one how-does-it-feed question. Three branches and five kingdoms fall out neatly.",
+      "points": [
+        "Monera are the only prokaryotes; every other kingdom is eukaryotic.",
+        "Fungal cell walls are chitin, plant cell walls are cellulose.",
+        "Plants are autotrophs; animals and fungi are heterotrophs.",
+        "Fungi absorb their food; animals ingest it."
+      ],
+      "example": {
+        "title": "Why is a mushroom not classified as a plant?",
+        "steps": [
+          "It has no chlorophyll, so it cannot photosynthesise.",
+          "Its cell wall is chitin, not cellulose.",
+          "It feeds by absorbing nutrients from decaying matter."
+        ],
+        "answer": "It belongs to Fungi. Being still and rooted-looking does not make something a plant."
+      }
+    },
+    {
+      "id": "plant-life",
+      "title": "Plant Life",
+      "hook": "Plants build sugar out of air, water and sunlight.",
+      "body": [
+        "Photosynthesis happens in the chloroplasts, where chlorophyll absorbs light energy. Carbon dioxide enters through the stomata and water comes up through the xylem. The word equation is: carbon dioxide plus water, in the presence of sunlight and chlorophyll, gives glucose plus oxygen. The rate depends on light intensity, carbon dioxide concentration, temperature and water supply.",
+        "Respiration is the opposite process and happens all the time, day and night, in every living cell. Glucose plus oxygen gives carbon dioxide plus water plus energy. During the day a plant usually photosynthesises faster than it respires, so overall it releases oxygen."
+      ],
+      "draw": "Draw a leaf with four arrows: CO2 and light coming in, water coming up the stem, and oxygen going out. Then draw it again at night with the arrows reversed for respiration.",
+      "points": [
+        "Photosynthesis needs light; respiration happens continuously.",
+        "Chlorophyll absorbs light energy but is not used up in the reaction.",
+        "Stomata are the pores that let gases in and out of the leaf.",
+        "The starch test with iodine shows whether photosynthesis has occurred."
+      ],
+      "example": {
+        "title": "Why is a plant kept in a dark cupboard for 48 hours before the starch test?",
+        "steps": [
+          "Without light the plant cannot photosynthesise.",
+          "It uses up the starch already stored in its leaves.",
+          "The leaf is now destarched, so any starch found afterwards must be newly made."
+        ],
+        "answer": "To destarch it, making the test a fair one. Iodine then turns blue-black only where new starch formed."
+      }
+    },
+    {
+      "id": "human-body",
+      "title": "Human Body: Excretion and Nerves",
+      "hook": "One system takes out the waste; the other carries the messages.",
+      "body": [
+        "The excretory system removes nitrogenous waste. Two kidneys filter the blood, each containing about a million nephrons that do the actual filtering. Urine passes down the ureters to the bladder, where it is stored, and leaves through the urethra. The skin and the lungs also excrete, through sweat and carbon dioxide.",
+        "The nervous system has a central part, the brain and spinal cord, and a peripheral part, the nerves. Neurons carry signals. The brain divides into the cerebrum for thinking and memory, the cerebellum for balance and coordination, and the medulla for involuntary actions such as breathing and heartbeat. A reflex action, like pulling your hand off something hot, travels a short loop through the spinal cord without waiting for the brain."
+      ],
+      "draw": "Draw the reflex arc as a loop: receptor in the skin, sensory neuron, spinal cord, motor neuron, muscle. Notice the brain is not in the loop, which is why it is so fast.",
+      "points": [
+        "The nephron is the functional unit of the kidney.",
+        "Cerebrum thinks, cerebellum balances, medulla keeps you alive automatically.",
+        "Reflex actions are processed by the spinal cord, not the brain.",
+        "Skin and lungs are excretory organs too, not just the kidneys."
+      ],
+      "example": {
+        "title": "You touch a hot pan and pull away before you feel the pain. Why?",
+        "steps": [
+          "Receptors in the skin send a signal along a sensory neuron.",
+          "The spinal cord processes it immediately and sends a motor signal back.",
+          "The muscle contracts and the hand withdraws.",
+          "The message also travels up to the brain, which is when you notice the pain."
+        ],
+        "answer": "A reflex arc. The spinal cord shortcut acts first; the brain finds out a moment later."
+      }
+    },
+    {
+      "id": "health",
+      "title": "Health and Hygiene",
+      "hook": "Most diseases arrive by a route you can block.",
+      "body": [
+        "Diseases are broadly communicable or non-communicable. Communicable diseases spread from person to person through air, water, food, contact or vectors such as mosquitoes. Malaria and dengue travel by mosquito, cholera and typhoid by contaminated water, and tuberculosis and the common cold by air.",
+        "Non-communicable diseases are not caught from others. They include deficiency diseases such as scurvy and rickets, and lifestyle-linked conditions. An allergy is different again: it is the immune system overreacting to a harmless substance such as pollen or dust, causing sneezing, rashes or breathlessness."
+      ],
+      "draw": "Draw a table of four transmission routes with one disease and one blocking action under each. Boiling water, a net, a mask, washing hands.",
+      "points": [
+        "Communicable diseases spread; non-communicable ones do not.",
+        "A vector carries a pathogen without being ill itself, like a mosquito.",
+        "Vaccination gives immunity before you ever meet the pathogen.",
+        "An allergy is an overreaction to something harmless, not an infection."
+      ],
+      "example": {
+        "title": "Why does draining stagnant water reduce malaria?",
+        "steps": [
+          "Malaria is spread by the female Anopheles mosquito.",
+          "Mosquitoes lay their eggs in still, standing water.",
+          "Removing that water removes the breeding ground."
+        ],
+        "answer": "It breaks the vector's life cycle. Blocking the route is often easier than treating the disease."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which plant tissue carries water from the roots upward?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Parenchyma",
+        "Collenchyma"
+      ],
+      "a": 1,
+      "why": "Xylem carries water and minerals upward. Phloem carries prepared food, and it can go both ways."
+    },
+    {
+      "q": "Which kingdom contains organisms with no true nucleus?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Plantae"
+      ],
+      "a": 0,
+      "why": "Monera are prokaryotes, meaning no membrane-bound nucleus. Every other kingdom is eukaryotic."
+    },
+    {
+      "q": "What gas do plants take in for photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "a": 2,
+      "why": "Carbon dioxide enters through the stomata and combines with water to make glucose, releasing oxygen."
+    },
+    {
+      "q": "What is the functional unit of the kidney called?",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Ureter",
+        "Alveolus"
+      ],
+      "a": 1,
+      "why": "The nephron filters blood. A neuron is the nerve cell, so the two words are easy to mix up."
+    },
+    {
+      "q": "A reflex action is controlled mainly by which part of the body?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Spinal cord",
+        "Medulla"
+      ],
+      "a": 2,
+      "why": "The spinal cord completes the reflex arc on its own, which is what makes the response so fast."
+    }
+  ]
+}

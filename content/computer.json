@@ -1,0 +1,227 @@
+{
+  "id": "computer",
+  "name": "Computer Applications",
+  "color": "#00968F",
+  "ink": "#007A74",
+  "tagline": "What is inside the machine, and how to tell it what to do.",
+  "blurb": "Hardware, number systems, staying safe online, Excel, Access and HTML.",
+  "intro": "A computer only ever does three things: take input, process it, give output. Every chapter this year is a closer look at one of those three, right down to the ones and zeros underneath.",
+  "labs": [
+    "bases",
+    "htmlplay"
+  ],
+  "chapters": [
+    {
+      "id": "hardware",
+      "title": "Computer Hardware Components",
+      "hook": "The CPU thinks, RAM remembers for now, storage remembers for good.",
+      "body": [
+        "The CPU is the processor, and it has two main parts: the ALU, which does the arithmetic and logic, and the control unit, which directs everything else. The motherboard is the main circuit board that connects all components together.",
+        "RAM is volatile memory: fast, used for whatever is open right now, and wiped the moment power is lost. ROM is non-volatile and holds the start-up instructions permanently. Peripherals are external devices, divided into input ones such as the keyboard, mouse and scanner, and output ones such as the monitor, printer and speakers."
+      ],
+      "draw": "Draw the input, process, output chain as three boxes with arrows, then list which devices belong in each box. Anything that both reads and writes, like a touchscreen, straddles two.",
+      "points": [
+        "The CPU contains the ALU and the control unit.",
+        "RAM is volatile and loses its contents when the power goes off.",
+        "ROM is non-volatile and stores the boot instructions.",
+        "A touchscreen and a modem are both input and output devices."
+      ],
+      "example": {
+        "title": "Why does unsaved work disappear if the power cuts out?",
+        "steps": [
+          "While you are working, the document is held in RAM.",
+          "RAM is volatile: it needs constant power to retain data.",
+          "Saving copies the data to storage, which is non-volatile.",
+          "Without that copy, cutting the power erases it."
+        ],
+        "answer": "It was only ever in RAM. Saving moves it somewhere that survives without power."
+      }
+    },
+    {
+      "id": "number-systems",
+      "title": "Number Systems",
+      "hook": "Same quantity, four different ways of writing it down.",
+      "body": [
+        "Computers work in binary, base 2, using only 0 and 1, because a circuit is either off or on. Octal is base 8, decimal is base 10, and hexadecimal is base 16, which needs the extra digits A to F to stand for 10 to 15.",
+        "To convert from any base to decimal, multiply each digit by its place value and add. To convert from decimal to another base, divide repeatedly by that base and read the remainders from bottom to top. Binary to hexadecimal is quickest in groups of four bits, and binary to octal in groups of three."
+      ],
+      "draw": "Write the place values above a binary number: 128, 64, 32, 16, 8, 4, 2, 1. Add up the ones where a 1 sits. That is the whole conversion.",
+      "points": [
+        "Binary uses 0 and 1; hexadecimal uses 0 to 9 then A to F.",
+        "Place values in binary double each step: 1, 2, 4, 8, 16, 32, 64, 128.",
+        "To convert decimal to binary, divide by 2 repeatedly and read remainders upward.",
+        "Four binary digits make exactly one hexadecimal digit."
+      ],
+      "example": {
+        "title": "Convert the decimal number 45 to binary",
+        "steps": [
+          "45 divided by 2 is 22 remainder 1.",
+          "22 divided by 2 is 11 remainder 0. 11 divided by 2 is 5 remainder 1.",
+          "5 divided by 2 is 2 remainder 1. 2 divided by 2 is 1 remainder 0. 1 divided by 2 is 0 remainder 1.",
+          "Read the remainders bottom to top."
+        ],
+        "answer": "101101. Check: 32 + 8 + 4 + 1 = 45. Try other numbers in the converter below."
+      }
+    },
+    {
+      "id": "security",
+      "title": "Computer Virus and Security",
+      "hook": "Most attacks need you to click something first.",
+      "body": [
+        "Malware is the umbrella term. A virus attaches itself to a file and spreads when that file is run. A worm copies itself across a network without needing a host file. A trojan pretends to be something useful. Spyware watches what you do, and ransomware locks your files and demands payment.",
+        "Protection is mostly habit. Keep antivirus software installed and updated, keep the operating system patched, do not open attachments from people you do not know, use strong and different passwords, and back up important files. Ethical practice matters too: respect copyright, do not plagiarise, and never access someone else's account without permission."
+      ],
+      "draw": "Make a table of five malware types with one column for how it spreads and one for how you stop it. The patterns repeat, which makes them easy to remember.",
+      "points": [
+        "A virus needs a host file; a worm spreads by itself across networks.",
+        "A trojan disguises itself as legitimate software.",
+        "Antivirus software must be updated to recognise new threats.",
+        "A strong password is long, mixed in character types, and not reused."
+      ],
+      "example": {
+        "title": "An email says your account will close unless you confirm your password. What is happening?",
+        "steps": [
+          "Real organisations never ask for a password by email.",
+          "The urgency is deliberate, designed to stop you thinking.",
+          "The link will lead to a fake page that captures what you type.",
+          "This is phishing."
+        ],
+        "answer": "Phishing. Do not click. Go to the real site directly by typing the address yourself."
+      }
+    },
+    {
+      "id": "spreadsheets",
+      "title": "Spreadsheets",
+      "hook": "A formula always starts with an equals sign.",
+      "body": [
+        "A spreadsheet is a grid of cells, each addressed by its column letter and row number, such as B4. A formula begins with = and can refer to other cells, so when those cells change the result updates automatically. That live recalculation is the entire point of a spreadsheet.",
+        "Useful functions include SUM to total a range, AVERAGE for the mean, MAX and MIN for extremes, and COUNT to count numeric entries. A range is written with a colon, as in A1:A10. A relative reference like A1 shifts when you copy the formula; an absolute reference written $A$1 stays locked."
+      ],
+      "draw": "Sketch a small marks table on paper with the column letters and row numbers written in. Then write which formula goes in which cell before you ever touch a keyboard.",
+      "points": [
+        "Every formula starts with an equals sign.",
+        "A range uses a colon: A1:A10 means all ten cells.",
+        "=SUM(B2:B6) totals a range; =AVERAGE(B2:B6) gives the mean.",
+        "$A$1 is absolute and does not shift when the formula is copied."
+      ],
+      "example": {
+        "title": "Marks sit in B2 to B6. Write formulas for the total, mean and highest.",
+        "steps": [
+          "Total: =SUM(B2:B6)",
+          "Mean: =AVERAGE(B2:B6)",
+          "Highest: =MAX(B2:B6)"
+        ],
+        "answer": "All three read the same range. Change any mark and all three update by themselves."
+      }
+    },
+    {
+      "id": "database",
+      "title": "Database Management",
+      "hook": "A table of records, where one field is guaranteed unique.",
+      "body": [
+        "A database stores related data in tables. A table has fields, which are the columns describing one attribute each, and records, which are the rows describing one entity each. A data type is set per field: text, number, date, currency or yes/no.",
+        "A primary key is a field whose value is different for every record, such as a roll number, and it can never be left empty. It lets you pick out exactly one record with no ambiguity. A foreign key is a field in one table that points at the primary key of another, which is how two tables are linked together."
+      ],
+      "draw": "Draw a student table and a marks table side by side, then draw an arrow from roll number in one to roll number in the other. That arrow is the relationship.",
+      "points": [
+        "Fields are columns; records are rows.",
+        "A primary key is unique for every record and cannot be null.",
+        "A foreign key links one table to another table's primary key.",
+        "Choosing the right data type prevents invalid entries from being stored."
+      ],
+      "example": {
+        "title": "Why is name a poor choice of primary key for a student table?",
+        "steps": [
+          "Two students can easily share a name.",
+          "A primary key must be unique for every single record.",
+          "Names can also be spelled differently or change.",
+          "A roll number is assigned once, is unique, and never repeats."
+        ],
+        "answer": "Roll number works because uniqueness is guaranteed by design, not by luck."
+      }
+    },
+    {
+      "id": "html",
+      "title": "Advanced HTML",
+      "hook": "Tags describe what something is; the browser decides how to show it.",
+      "body": [
+        "An HTML page has a head, holding the title and information about the page, and a body, holding everything visible. Most tags come in pairs with a closing tag, and a few such as the line break and the image tag stand alone.",
+        "Lists come in two kinds: ordered with numbers, and unordered with bullets, both built from list items. Tables are rows containing cells, with header cells for the top row. A hyperlink is an anchor tag with an href attribute pointing at the destination. Images use an img tag with a src attribute, and an alt attribute describing the picture for anyone who cannot see it."
+      ],
+      "draw": "Draw the page as nested boxes: html containing head and body, body containing your headings and lists. HTML is boxes inside boxes, and the closing tags are just the boxes shutting.",
+      "points": [
+        "Tags normally come in pairs, and the inner tag must close before the outer one.",
+        "ol gives a numbered list, ul gives bullets, and li is one item in either.",
+        "A table is built from tr rows containing td cells, with th for headers.",
+        "Always give an image an alt attribute describing what it shows."
+      ],
+      "example": {
+        "title": "What does the alt attribute on an image actually do?",
+        "steps": [
+          "It holds a short text description of the image.",
+          "It is read aloud by screen readers for people who cannot see the picture.",
+          "It is displayed if the image file fails to load.",
+          "Search engines also use it to understand the page."
+        ],
+        "answer": "It makes the image understandable without being seen. Write it in the playground below and try it."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which type of memory loses its contents when the computer is switched off?",
+      "options": [
+        "ROM",
+        "RAM",
+        "Hard disk",
+        "Pen drive"
+      ],
+      "a": 1,
+      "why": "RAM is volatile, so it needs constant power. ROM and storage devices keep their contents without it."
+    },
+    {
+      "q": "What is the decimal value of the binary number 1011?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "15"
+      ],
+      "a": 1,
+      "why": "Place values are 8, 4, 2, 1. The ones sit at 8, 2 and 1, and 8 + 2 + 1 = 11."
+    },
+    {
+      "q": "Which malware copies itself across a network without needing a host file?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spyware"
+      ],
+      "a": 1,
+      "why": "A worm spreads on its own. A virus needs to attach to a file and have that file run."
+    },
+    {
+      "q": "Which formula finds the average of cells B2 to B8?",
+      "options": [
+        "=MEAN(B2:B8)",
+        "=AVERAGE(B2,B8)",
+        "=AVERAGE(B2:B8)",
+        "AVERAGE(B2:B8)"
+      ],
+      "a": 2,
+      "why": "The function is AVERAGE, the range needs a colon, and every formula must begin with an equals sign."
+    },
+    {
+      "q": "Which HTML tag creates a numbered list?",
+      "options": [
+        "ul",
+        "li",
+        "ol",
+        "dl"
+      ],
+      "a": 2,
+      "why": "ol means ordered list and numbers the items. ul is unordered and gives bullets; li is a single item."
+    }
+  ]
+}

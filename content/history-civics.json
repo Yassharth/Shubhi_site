@@ -1,0 +1,274 @@
+{
+  "id": "history-civics",
+  "name": "History & Civics",
+  "color": "#8B2E6B",
+  "ink": "#8B2E6B",
+  "tagline": "Who ruled, who resisted, and the rulebook we wrote for ourselves.",
+  "blurb": "Medieval India from the Sultanate to the Mughals, then the Constitution.",
+  "intro": "History here is one long argument about power: who holds it, how they justify it, and what happens when ordinary people push back. Civics is the modern answer to the same question, written down so nobody has to guess.",
+  "labs": [
+    "timeline"
+  ],
+  "chapters": [
+    {
+      "id": "medieval-sources",
+      "title": "The Medieval Period and its Sources",
+      "hook": "Historians work from what survived, which is never the whole story.",
+      "body": [
+        "The medieval period in India runs roughly from the 8th to the 18th century. Historians reconstruct it from three kinds of evidence. Archaeological sources are physical remains: coins, monuments, pottery and inscriptions. Literary sources are written: court chronicles such as the Tuzuk-i-Baburi, travellers' accounts, and religious texts.",
+        "Each source has a bias. A court chronicle was usually written to flatter the ruler paying for it. A foreign traveller saw only part of the picture and misunderstood some of it. Good history cross-checks several sources against one another rather than trusting any single one."
+      ],
+      "draw": "Make three columns: coins, buildings, writings. Under each, note what it can tell you and what it cannot. A coin proves a ruler existed and how far trade reached, but not whether he was liked.",
+      "points": [
+        "Archaeological sources include coins, monuments and inscriptions.",
+        "Literary sources include chronicles, travellers' accounts and religious writing.",
+        "Court chronicles tend to flatter their patron.",
+        "Coins reveal the extent of a kingdom, its wealth and sometimes its religion."
+      ],
+      "example": {
+        "title": "Why do historians value coins so highly?",
+        "steps": [
+          "Coins carry the ruler's name, title and often a date.",
+          "Where they are found shows how far the kingdom traded or ruled.",
+          "The metal used hints at the economic health of the time."
+        ],
+        "answer": "They are dateable, widespread and hard to fake, so they anchor the chronology other sources hang on."
+      }
+    },
+    {
+      "id": "christianity-islam",
+      "title": "Rise of Christianity and Islam",
+      "hook": "Two faiths that reshaped three continents between them.",
+      "body": [
+        "Christianity began in Roman-ruled Palestine with the teachings of Jesus Christ, emphasising love, forgiveness and the equality of all before God. Though persecuted at first, it spread through the Roman Empire and was eventually adopted as its official religion, becoming the dominant faith of Europe.",
+        "Islam began in Arabia in the 7th century with the teachings of Prophet Muhammad, centred on the oneness of God, and set out in the Quran. Its five pillars are the declaration of faith, prayer, charity, fasting during Ramzan and pilgrimage to Mecca. It spread rapidly across West Asia, North Africa and into Spain and India through conquest, trade and preaching."
+      ],
+      "draw": "Draw one map with two spreading shades from two starting points. Seeing where they met, in Spain and in India, explains a lot of what follows.",
+      "points": [
+        "Christianity arose in Palestine; Islam arose in Arabia.",
+        "The Quran is the holy book of Islam; the Bible that of Christianity.",
+        "Islam's five pillars are faith, prayer, charity, fasting and pilgrimage.",
+        "Trade routes spread both religions as effectively as armies did."
+      ],
+      "example": {
+        "title": "How did trade help spread Islam into India?",
+        "steps": [
+          "Arab merchants traded along India's western coast long before any invasion.",
+          "They settled in port towns, married locally and built mosques.",
+          "The faith spread through daily contact rather than conquest in these regions."
+        ],
+        "answer": "Coastal Islam in India arrived by sea and by trade, centuries before the Delhi Sultanate arrived by land."
+      }
+    },
+    {
+      "id": "delhi-sultanate",
+      "title": "The Delhi Sultanate",
+      "hook": "Five dynasties, roughly three hundred years, one contested throne.",
+      "body": [
+        "The Slave or Mamluk dynasty was founded by Qutb-ud-din Aibak, who began the Qutb Minar. Iltutmish consolidated the Sultanate, and Razia Sultan became the only woman to rule from the Delhi throne, resisted by nobles who would not accept a female ruler. Balban restored the prestige of the crown with strict discipline.",
+        "The Khilji dynasty under Alauddin Khilji brought market price controls and a large standing army. The Tughlaqs followed, with Muhammad-bin-Tughlaq remembered for ambitious schemes that failed: moving the capital to Daulatabad and issuing token currency. Firoz Shah Tughlaq built canals and rest houses instead. The Sayyid and Lodi dynasties were weaker, and Ibrahim Lodi's defeat at Panipat in 1526 ended the Sultanate."
+      ],
+      "draw": "Draw a single timeline strip and block out the five dynasties in five colours. Write one memorable thing in each block. The lab below does this interactively.",
+      "points": [
+        "Qutb-ud-din Aibak founded the Slave dynasty and began the Qutb Minar.",
+        "Razia Sultan was the only woman to rule the Delhi Sultanate.",
+        "Alauddin Khilji is known for market control and a strong standing army.",
+        "The First Battle of Panipat in 1526 ended the Sultanate and began Mughal rule."
+      ],
+      "example": {
+        "title": "Why did Muhammad-bin-Tughlaq's token currency fail?",
+        "steps": [
+          "He issued copper and brass coins to stand in for silver ones.",
+          "The state could not control who minted them.",
+          "People forged them at home, so the coins lost all value.",
+          "He had to withdraw them, exchanging them for real silver at great cost."
+        ],
+        "answer": "The idea was sound but unenforceable. Token money only works if forgery can be prevented."
+      }
+    },
+    {
+      "id": "mughal-empire",
+      "title": "The Mughal Empire",
+      "hook": "Babur to Aurangzeb: expansion, consolidation, and then overreach.",
+      "body": [
+        "Babur won the First Battle of Panipat in 1526 using artillery and the tulughma formation. Humayun lost the empire to Sher Shah Suri and regained it only late in life. Akbar built it into a genuine empire: he abolished the jizya tax, introduced the mansabdari system of ranked officers, created the Din-i-Ilahi, and pursued a policy of sulh-i-kul, meaning peace with all.",
+        "Jahangir and Shah Jahan presided over the cultural height, with the Taj Mahal built under Shah Jahan. Aurangzeb expanded the empire to its largest extent but reimposed the jizya and fought long, draining wars in the Deccan. After his death the empire weakened quickly."
+      ],
+      "draw": "Draw six portraits in a row, one per emperor, and write a single sentence under each. One sentence per ruler is enough to hold the sequence in your head.",
+      "points": [
+        "Babur founded the empire in 1526 after the First Battle of Panipat.",
+        "Akbar's mansabdari system ranked nobles and fixed their duties and pay.",
+        "Sulh-i-kul, peace with all, was Akbar's policy of religious tolerance.",
+        "Aurangzeb expanded the empire furthest but left it overstretched and unstable."
+      ],
+      "example": {
+        "title": "Why is Akbar's abolition of the jizya considered so significant?",
+        "steps": [
+          "The jizya was a tax levied on non-Muslim subjects.",
+          "Most of Akbar's subjects were not Muslim.",
+          "Removing it signalled that the state did not treat them as outsiders.",
+          "It also won him Rajput alliances, which strengthened the empire militarily."
+        ],
+        "answer": "It was both a moral and a strategic move: tolerance made the empire easier to hold together."
+      }
+    },
+    {
+      "id": "bhakti-sufi",
+      "title": "The Bhakti and Sufi Movements",
+      "hook": "Devotion over ritual, in the language people actually spoke.",
+      "body": [
+        "The Bhakti movement taught that devotion to a personal god mattered more than ritual, priests or caste. Saints such as Kabir, Guru Nanak, Mirabai, Tulsidas and Chaitanya preached in regional languages rather than Sanskrit, which is precisely why ordinary people could follow them. Kabir rejected the distinction between Hindu and Muslim outright.",
+        "Sufism was the mystical strand of Islam, seeking direct experience of God through love, music and poetry. Sufi saints such as Moinuddin Chishti and Nizamuddin Auliya lived simply and welcomed everyone to their khanqahs. Both movements softened religious boundaries and left a lasting mark on Indian music, poetry and language."
+      ],
+      "draw": "Draw two streams flowing towards each other and meeting. Write Bhakti saints on one bank and Sufi saints on the other, and the shared ideas in the water between.",
+      "points": [
+        "Bhakti saints preached in regional languages, not Sanskrit.",
+        "Both movements rejected ritual, priesthood and rigid caste distinctions.",
+        "Kabir and Guru Nanak drew from both Hindu and Islamic traditions.",
+        "Sufi gatherings used music, qawwali, as a path to devotion."
+      ],
+      "example": {
+        "title": "Why did preaching in regional languages matter so much?",
+        "steps": [
+          "Sanskrit was understood mainly by priests and the educated elite.",
+          "Preaching in Hindi, Marathi, Bengali or Punjabi reached everyone.",
+          "People could sing and memorise the verses themselves.",
+          "This bypassed the priesthood entirely as a go-between."
+        ],
+        "answer": "Language was the reform. Making devotion understandable made it available without permission."
+      }
+    },
+    {
+      "id": "constitution",
+      "title": "The Constitution of India",
+      "hook": "The longest written constitution in the world, and we wrote it ourselves.",
+      "body": [
+        "The Constituent Assembly began work in 1946. Dr B. R. Ambedkar chaired the Drafting Committee. The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950, which is why that day is Republic Day.",
+        "The Preamble is the introduction that states its aims. It declares India a sovereign, socialist, secular, democratic republic, and promises justice, liberty, equality and fraternity to all citizens. Key features include federalism with a strong centre, a parliamentary system, an independent judiciary, universal adult franchise and single citizenship."
+      ],
+      "draw": "Write out the Preamble in your best hand-lettering and box the five words that describe the state: sovereign, socialist, secular, democratic, republic. Learn them as a set.",
+      "points": [
+        "Adopted 26 November 1949; came into force 26 January 1950.",
+        "Dr B. R. Ambedkar chaired the Drafting Committee.",
+        "The Preamble promises justice, liberty, equality and fraternity.",
+        "Secular means the state has no religion of its own and favours none."
+      ],
+      "example": {
+        "title": "What does sovereign mean in the Preamble?",
+        "steps": [
+          "Sovereign means free from outside control.",
+          "India makes its own laws and decides its own foreign policy.",
+          "No external power can dictate those decisions."
+        ],
+        "answer": "Complete independence in both internal and external matters. It was the first word chosen for a reason."
+      }
+    },
+    {
+      "id": "rights-duties",
+      "title": "Fundamental Rights and Duties",
+      "hook": "Six rights you can defend in court, and ten duties you owe in return.",
+      "body": [
+        "The six Fundamental Rights are the Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and the Right to Constitutional Remedies. The last is the one that makes the others real: Dr Ambedkar called it the heart and soul of the Constitution, because it lets you go to court when a right is violated.",
+        "Fundamental Duties were added later by the 42nd Amendment. They include respecting the Constitution, the national flag and anthem, protecting the environment, safeguarding public property, and promoting harmony. Unlike rights, duties are not enforceable in court, but they state what citizenship asks of you."
+      ],
+      "draw": "Draw a two-pan balance: rights on one side, duties on the other. Rights are enforceable, duties are expected. Note which pan the courts can actually touch.",
+      "points": [
+        "There are six Fundamental Rights and eleven Fundamental Duties.",
+        "The Right to Constitutional Remedies lets citizens approach the courts directly.",
+        "Fundamental Duties came through the 42nd Amendment and are not enforceable by courts.",
+        "The Right against Exploitation bans child labour in hazardous work and forced labour."
+      ],
+      "example": {
+        "title": "Why did Ambedkar call the Right to Constitutional Remedies the heart of the Constitution?",
+        "steps": [
+          "The other five rights are only promises on paper.",
+          "Without a way to enforce them, a violation would have no consequence.",
+          "This right lets any citizen move the Supreme Court or High Court directly."
+        ],
+        "answer": "It is the right that enforces all the others. A right with no remedy is not really a right."
+      }
+    },
+    {
+      "id": "dpsp",
+      "title": "Directive Principles of State Policy",
+      "hook": "Goals for the government, rather than rights for the citizen.",
+      "body": [
+        "The Directive Principles are instructions to the government about the kind of country it should try to build. They cover equal pay for equal work, free and compulsory education for children, public health, a living wage, protection of the environment and of monuments, and the promotion of village panchayats.",
+        "The key difference from Fundamental Rights is enforceability. Rights can be defended in court; Directive Principles cannot. They are, as the Constitution puts it, fundamental in the governance of the country, and the government is expected to apply them when making laws."
+      ],
+      "draw": "Three-column table: Fundamental Rights, Fundamental Duties, Directive Principles. Rows for who it binds, and whether a court can enforce it. The pattern becomes obvious.",
+      "points": [
+        "Directive Principles guide the state, not individual citizens.",
+        "They are non-justiciable, meaning they cannot be enforced in court.",
+        "Many have become law anyway, such as the Right to Education.",
+        "They aim at a welfare state and reducing inequality."
+      ],
+      "example": {
+        "title": "Education appears as both a Directive Principle and a right. How?",
+        "steps": [
+          "It began as a Directive Principle, a goal for the state to work towards.",
+          "In 2002 the 86th Amendment added Article 21A.",
+          "Free and compulsory education for ages 6 to 14 became a Fundamental Right."
+        ],
+        "answer": "A Directive Principle was upgraded into an enforceable right. It shows the two lists are connected, not separate."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Who founded the Slave dynasty of the Delhi Sultanate?",
+      "options": [
+        "Iltutmish",
+        "Qutb-ud-din Aibak",
+        "Balban",
+        "Alauddin Khilji"
+      ],
+      "a": 1,
+      "why": "Qutb-ud-din Aibak founded it and began building the Qutb Minar. Iltutmish consolidated it afterwards."
+    },
+    {
+      "q": "Which battle in 1526 established Mughal rule in India?",
+      "options": [
+        "Battle of Haldighati",
+        "Battle of Talikota",
+        "First Battle of Panipat",
+        "Battle of Plassey"
+      ],
+      "a": 2,
+      "why": "Babur defeated Ibrahim Lodi at the First Battle of Panipat, ending the Sultanate and starting the Mughal Empire."
+    },
+    {
+      "q": "What was Akbar's policy of sulh-i-kul?",
+      "options": [
+        "Peace with all",
+        "Land revenue reform",
+        "A military ranking system",
+        "A new calendar"
+      ],
+      "a": 0,
+      "why": "Sulh-i-kul means peace with all, his policy of religious tolerance. Mansabdari was the ranking system."
+    },
+    {
+      "q": "On which date did the Constitution of India come into force?",
+      "options": [
+        "15 August 1947",
+        "26 November 1949",
+        "26 January 1950",
+        "2 October 1950"
+      ],
+      "a": 2,
+      "why": "It was adopted on 26 November 1949 but came into force on 26 January 1950, now Republic Day."
+    },
+    {
+      "q": "Which of these can NOT be enforced in a court of law?",
+      "options": [
+        "Right to Equality",
+        "Right to Freedom",
+        "Directive Principles of State Policy",
+        "Right to Constitutional Remedies"
+      ],
+      "a": 2,
+      "why": "Directive Principles are non-justiciable. They guide the government but no one can sue over them."
+    }
+  ]
+}

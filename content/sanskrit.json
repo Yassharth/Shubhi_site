@@ -1,0 +1,202 @@
+{
+  "id": "sanskrit",
+  "name": "Sanskrit",
+  "color": "#E08A00",
+  "ink": "#9B6000",
+  "tagline": "A language where the ending of a word tells you its job.",
+  "blurb": "Shabd roop, dhatu roop, sandhi, avyaya and reading shlokas.",
+  "intro": "Sanskrit puts the grammar inside the word itself. Change the ending and you change the meaning of the whole sentence, which is why word order matters so little and endings matter so much. Learn the patterns and the rest follows.",
+  "labs": [
+    "sanskritdrill"
+  ],
+  "chapters": [
+    {
+      "id": "shabd-roop",
+      "title": "Shabd Roop: noun forms",
+      "hook": "One noun, eight cases, three numbers: twenty-four forms from one pattern.",
+      "body": [
+        "Every Sanskrit noun changes its ending according to its role in the sentence. There are eight vibhaktis, or cases, and three vachans: ekavachan for one, dvivachan for exactly two, and bahuvachan for three or more. Dvivachan is the one that has no English equivalent, so it is the one to watch.",
+        "Nouns are grouped by their final sound and gender. बालक is the model for masculine words ending in अ, लता for feminine words ending in आ, and नदी for feminine words ending in ई. Learn these three thoroughly and hundreds of other nouns follow the same pattern."
+      ],
+      "draw": "Write the eight vibhakti names down the left of a page and their meanings beside them: who, whom, by, for, from, of, in, O. Then fill the grid for बालक from memory, checking only at the end.",
+      "points": [
+        "प्रथमा marks the subject, द्वितीया the object, तृतीया means by or with.",
+        "चतुर्थी means for, पञ्चमी means from, षष्ठी means of, सप्तमी means in or on.",
+        "सम्बोधन is for calling someone and takes हे in front.",
+        "Dvivachan is used for exactly two, never for three."
+      ],
+      "example": {
+        "title": "बालक, masculine, ending in अ",
+        "steps": [
+          "प्रथमा: बालकः, बालकौ, बालकाः",
+          "द्वितीया: बालकम्, बालकौ, बालकान्",
+          "तृतीया: बालकेन, बालकाभ्याम्, बालकैः",
+          "षष्ठी: बालकस्य, बालकयोः, बालकानाम्",
+          "सप्तमी: बालके, बालकयोः, बालकेषु"
+        ],
+        "answer": "In बालकः पठति the boy is the subject, so प्रथमा. In बालकं पश्यामि I see the boy, so द्वितीया."
+      }
+    },
+    {
+      "id": "dhatu-roop",
+      "title": "Dhatu Roop: verb forms",
+      "hook": "The verb ending tells you who is doing it and when.",
+      "body": [
+        "A dhatu is a verb root, such as पठ् meaning to read. Its forms change across three purushas, which run opposite to English: प्रथम पुरुष is he, she or it, मध्यम पुरुष is you, and उत्तम पुरुष is I. Each combines with the three vachans to give nine forms per tense.",
+        "A lakar is a tense or mood. You need three this year: लट् लकार for the present, लृट् लकार for the future, and लङ् लकार for the past. लङ् is recognisable because it adds अ at the front of the root, so पठति becomes अपठत्."
+      ],
+      "draw": "Write the three lakars side by side as three small three-by-three grids for the same root. Seeing the अ appear at the front of every लङ् form makes that tense unmistakable.",
+      "points": [
+        "प्रथम पुरुष is he/she/it, मध्यम is you, उत्तम is I. This is the reverse of English numbering.",
+        "लट् is present, लृट् is future, लङ् is past.",
+        "लृट् inserts the syllable ष्य before the ending: पठिष्यति.",
+        "लङ् prefixes अ to the root: अपठत्."
+      ],
+      "example": {
+        "title": "पठ् in all three lakars, prathama purusha",
+        "steps": [
+          "लट्: पठति, पठतः, पठन्ति",
+          "लृट्: पठिष्यति, पठिष्यतः, पठिष्यन्ति",
+          "लङ्: अपठत्, अपठताम्, अपठन्",
+          "उत्तम पुरुष in लट्: पठामि, पठावः, पठामः"
+        ],
+        "answer": "सः पठति means he reads. सः अपठत् means he read. सः पठिष्यति means he will read."
+      }
+    },
+    {
+      "id": "sandhi",
+      "title": "Sandhi: sounds joining",
+      "hook": "When two words meet, the sounds at the join change.",
+      "body": [
+        "Sandhi is the merging of the last sound of one word with the first sound of the next. Swar sandhi joins vowel to vowel. Dirgha sandhi: two similar vowels combine into one long one, so विद्या plus आलयः gives विद्यालयः. Guna sandhi: अ or आ followed by इ, उ or ऋ gives ए, ओ or अर्, so सूर्य plus उदयः gives सूर्योदयः.",
+        "Vriddhi sandhi: अ or आ plus ए or ऐ gives ऐ, so सदा plus एव gives सदैव. Yan sandhi: इ, उ or ऋ before a different vowel becomes य्, व् or र्, so इति plus आदि gives इत्यादि. Visarga sandhi handles the ः sound, so मनः plus रथः gives मनोरथः."
+      ],
+      "draw": "Write each sandhi type as an arrow diagram: the two incoming sounds on the left, the arrow, the result on the right. Five arrows cover almost every question you will be asked.",
+      "points": [
+        "Dirgha: similar vowels merge into the long form. अ + आ gives आ.",
+        "Guna: अ + इ gives ए, अ + उ gives ओ, अ + ऋ gives अर्.",
+        "Vriddhi: अ + ए gives ऐ, अ + ओ gives औ.",
+        "Yan: इ + a different vowel gives य्, as in इति + आदि becoming इत्यादि."
+      ],
+      "example": {
+        "title": "Break these apart (sandhi viched)",
+        "steps": [
+          "देवालयः becomes देव + आलयः, which is dirgha sandhi.",
+          "महेन्द्रः becomes महा + इन्द्रः, which is guna sandhi.",
+          "स्वागतम् becomes सु + आगतम्, which is yan sandhi.",
+          "एकैकः becomes एक + एकः, which is vriddhi sandhi."
+        ],
+        "answer": "Work backwards by asking which rule could have produced that joined vowel. There is usually only one."
+      }
+    },
+    {
+      "id": "avyaya",
+      "title": "Avyaya and translation",
+      "hook": "The words that never change, in a language where everything else does.",
+      "body": [
+        "An avyaya is an indeclinable: a word whose form stays the same no matter the gender, number or case around it. They are the easiest words in Sanskrit precisely because they never change. Common ones include च for and, वा for or, अपि for also, एव for only, सह for with, विना for without, and the time and place words अद्य today, श्वः tomorrow, ह्यः yesterday, अत्र here, तत्र there and कुत्र where.",
+        "To translate a sentence into Sanskrit, find the subject and put it in प्रथमा, find the object and put it in द्वितीया, then choose the verb form matching the subject's person and number. Sanskrit usually places the verb at the end, though word order is flexible because the endings already carry the meaning."
+      ],
+      "draw": "Keep a running avyaya list at the back of your notebook, grouped by meaning: time words, place words, joining words. Add to it every time you meet a new one.",
+      "points": [
+        "Avyayas never change form in any case, gender or number.",
+        "च is placed after the words it joins, not between them.",
+        "Subject takes प्रथमा; direct object takes द्वितीया.",
+        "The verb must agree with the subject in both purusha and vachan."
+      ],
+      "example": {
+        "title": "Translate: The boy reads a book today.",
+        "steps": [
+          "Subject is boy, singular: बालकः in प्रथमा ekavachan.",
+          "Object is book: पुस्तकम् in द्वितीया ekavachan.",
+          "Today is the avyaya अद्य, unchanged.",
+          "Verb: he reads, prathama purusha ekavachan, लट् लकार: पठति."
+        ],
+        "answer": "बालकः अद्य पुस्तकं पठति।"
+      }
+    },
+    {
+      "id": "literature",
+      "title": "Shlokas and stories",
+      "hook": "Read it aloud first; the rhythm tells you where the words break.",
+      "body": [
+        "Textbook shlokas are usually subhashitas, short verses carrying one piece of practical wisdom. The method is always the same: read aloud for the rhythm, split any sandhi to find the real words, identify the verb, then identify the subject by looking for the प्रथमा ending. Only then translate.",
+        "A well-known example is उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः, meaning tasks are accomplished by effort, not by wishing. Breaking it down: उद्यमेन is by effort in तृतीया, सिध्यन्ति is are accomplished, कार्याणि is tasks in प्रथमा bahuvachan, and मनोरथैः is by wishes in तृतीया bahuvachan."
+      ],
+      "draw": "Copy a shloka out by hand, then write each word underneath with its case and meaning in a column. Hand-copying Devanagari is also the fastest way to fix spelling.",
+      "points": [
+        "Always split sandhi before trying to translate.",
+        "Find the verb first, then look for the प्रथमा word as the subject.",
+        "तृतीया endings such as एन and ऐः usually translate as by or with.",
+        "Reading aloud reveals word boundaries that look invisible on the page."
+      ],
+      "example": {
+        "title": "How to attack an unseen shloka in an exam",
+        "steps": [
+          "Read it aloud twice to feel the breaks.",
+          "Underline any long joined words and split the sandhi.",
+          "Circle the verb, then find the प्रथमा word: that is your subject.",
+          "Translate word by word, then smooth it into natural Hindi or English."
+        ],
+        "answer": "Never translate left to right straight away. Find the verb and subject first, and the rest falls into place."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the षष्ठी विभक्ति, एकवचन form of बालक?",
+      "options": [
+        "बालकम्",
+        "बालकेन",
+        "बालकस्य",
+        "बालके"
+      ],
+      "a": 2,
+      "why": "षष्ठी means of, and the ekavachan form is बालकस्य. बालके is सप्तमी and बालकेन is तृतीया."
+    },
+    {
+      "q": "Which lakar does अपठत् belong to?",
+      "options": [
+        "लट् लकार",
+        "लृट् लकार",
+        "लङ् लकार",
+        "लोट् लकार"
+      ],
+      "a": 2,
+      "why": "The अ added at the front of the root marks लङ् लकार, the past tense. It means he read."
+    },
+    {
+      "q": "सूर्य + उदयः = सूर्योदयः. Which sandhi is this?",
+      "options": [
+        "दीर्घ सन्धि",
+        "गुण सन्धि",
+        "वृद्धि सन्धि",
+        "यण् सन्धि"
+      ],
+      "a": 1,
+      "why": "अ followed by उ becomes ओ, which is guna sandhi. Dirgha would need two similar vowels."
+    },
+    {
+      "q": "Which of these is an अव्यय?",
+      "options": [
+        "नदी",
+        "अद्य",
+        "पुस्तकम्",
+        "बालकः"
+      ],
+      "a": 1,
+      "why": "अद्य, meaning today, never changes its form. The other three all decline through the vibhaktis."
+    },
+    {
+      "q": "In Sanskrit grammar, उत्तम पुरुष refers to...",
+      "options": [
+        "He, she or it",
+        "You",
+        "I or we",
+        "They"
+      ],
+      "a": 2,
+      "why": "The numbering is the reverse of English. उत्तम is the speaker, प्रथम is he/she/it, मध्यम is you."
+    }
+  ]
+}
